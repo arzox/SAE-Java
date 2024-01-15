@@ -1,12 +1,18 @@
+import Exceptions.categoryNullException;
+
 import java.io.FileInputStream;
-import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Classification {
-
-
+    static Categorie sport = new Categorie("SPORTS");
+    static Categorie culture = new Categorie("CULTURE");
+    static Categorie economie = new Categorie("ECONOMIE");
+    static Categorie politique = new Categorie("POLITIQUE");
+    static Categorie envScience = new Categorie("ENVIRONNEMENT-SCIENCES");
+    static ArrayList<Categorie> categories = new ArrayList<>(Arrays.asList(sport, culture, economie, politique, envScience));
     private static ArrayList<Depeche> lectureDepeches(String nomFichier) {
         //creation d'un tableau de dépêches
         ArrayList<Depeche> depeches = new ArrayList<>();
@@ -27,7 +33,7 @@ public class Classification {
                 while (scanner.hasNextLine() && !ligne.equals("")) {
                     ligne = scanner.nextLine();
                     if (!ligne.equals("")) {
-                        lignes = lignes + '\n' + ligne;
+                        lignes += '\n' + ligne;
                     }
                 }
                 Depeche uneDepeche = new Depeche(id, date, categorie, lignes);
@@ -40,6 +46,33 @@ public class Classification {
         return depeches;
     }
 
+    public int score(Depeche depeche) {
+        Categorie currentCat;
+        int score = 0;
+        try {
+            currentCat = categorieFromDepeche(depeche);
+        } catch (categoryNullException e) {
+            System.out.println(e);
+            return 0;
+        }
+
+        for (String mot : depeche.getMots()) {
+            score += UtilitairePaireChaineEntier.entierPourChaine(currentCat.getLexique(), mot);
+        }
+
+        return score;
+    }
+
+    public Categorie categorieFromDepeche(Depeche depeche) throws categoryNullException {
+        Categorie currentCat = null;
+        for (Categorie categorie : categories) {
+            if (depeche.getCategorie().equals(categorie.getNom())) {
+                currentCat = categorie;
+            }
+        }
+        if (currentCat == null) {throw new categoryNullException("No category founded");}
+        return currentCat;
+    }
 
     public static void classementDepeches(ArrayList<Depeche> depeches, ArrayList<Categorie> categories, String nomFichier) {
     }
@@ -63,6 +96,12 @@ public class Classification {
     }
 
     public static void main(String[] args) {
+
+        sport.initLexique("sportLexique");
+        economie.initLexique("economieLexique");
+        politique.initLexique("politiqueLexique");
+        envScience.initLexique("envScienceLexique");
+        culture.initLexique("cultureLexique");
 
         //Chargement des dépêches en mémoire
         System.out.println("chargement des dépêches");

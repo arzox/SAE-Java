@@ -13,7 +13,15 @@ public class UtilitairePaireChaineEntier {
     }
 
     public static String chaineMax(ArrayList<PaireChaineEntier> listePaires) {
-        return "SPORTS";
+        int max = 0;
+        String maxString = "";
+        for (PaireChaineEntier hashMapDubled : listePaires) {
+            if (hashMapDubled.getEntier() > max) {
+                max = hashMapDubled.getEntier();
+                maxString = hashMapDubled.getChaine();
+            }
+        }
+        return maxString;
     }
 
 
