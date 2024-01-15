@@ -20,4 +20,9 @@ public class PaireChaineEntier {
     public int getEntier(){
         return entier;
     }
+
+    @Override
+    public String toString() {
+        return getChaine() + " poids: " + getEntier();
+    }
 }

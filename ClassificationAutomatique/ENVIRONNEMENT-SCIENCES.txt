@@ -8,10 +8,10 @@ prostate:2
 médecins:2
 décès:2
 cardiaques:2
-automédication: 3
-médicaments: 2
-satellite: 2
-orbite: 2
+automédication:3
+médicaments:2
+satellite:2
+orbite:2
 détruit:1
 CO2:2
 gaz:2
