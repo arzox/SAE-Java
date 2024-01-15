@@ -7,17 +7,17 @@ public class UtilitairePaireChaineEntier {
         int debut = 0;
         int fin = listePaires.size() - 1;
         int milieu = (debut + fin) / 2;
-        while (debut <= fin) {
-            if (listePaires.get(milieu).getChaine().equals(chaine)) {
+        while (debut < fin) {
+            if (listePaires.get(milieu).getChaine().equalsIgnoreCase(chaine)) {
                 return milieu;
-            } else if (listePaires.get(milieu).getChaine().compareTo(chaine) < 0) {
+            } else if (listePaires.get(milieu).getChaine().toLowerCase().compareTo(chaine.toLowerCase()) < 0) {
                 debut = milieu + 1;
             } else {
-                fin = milieu - 1;
+                fin = milieu;
             }
             milieu = (debut + fin) / 2;
         }
-        return -1;
+        return fin;
     }
 
     public static int entierPourChaine(ArrayList<PaireChaineEntier> listePaires, String chaine) {
@@ -25,8 +25,8 @@ public class UtilitairePaireChaineEntier {
     }
 
     public static String chaineMax(ArrayList<PaireChaineEntier> listePaires) {
-        int max = 0;
-        String maxString = "";
+        int max = listePaires.get(0).getEntier();
+        String maxString = listePaires.get(0).getChaine();
         for (PaireChaineEntier hashMapDubled : listePaires) {
             if (hashMapDubled.getEntier() > max) {
                 max = hashMapDubled.getEntier();

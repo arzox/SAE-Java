@@ -33,29 +33,23 @@ public class Categorie {
             // lecture du fichier d'entrée
             FileInputStream file = new FileInputStream(nomFichier);
             Scanner scanner = new Scanner(file);
-            String chaine = "";
+            String ligne = scanner.nextLine();
 
-            while (scanner.hasNextLine()) {
-                String ligne = scanner.nextLine();
-                int length = ligne.length();
+            while (scanner.hasNextLine() && !ligne.equals("")) {
 
-                char nombre = ligne.charAt(length - 1);
-                int nb = Integer.parseInt(String.valueOf(nombre));
+                String[] mot = ligne.split(":");
+
+                PaireChaineEntier paireChaineEntier = new PaireChaineEntier(mot[0], Integer.parseInt(mot[1]));
+
+                if(lexique.isEmpty()){
+                    lexique.add(paireChaineEntier);
+                }
+                else{
+                    insereTrie(paireChaineEntier);
+                }
+
 
                 ligne = scanner.nextLine();
-                int separatorIndex = ligne.indexOf(':');
-                if (separatorIndex != -1) {
-                    chaine = ligne.substring(0, separatorIndex);
-                }
-
-                while (scanner.hasNextLine() && separatorIndex != -1) {
-                    ligne = scanner.nextLine();
-                    if (separatorIndex != -1) {
-                        chaine = ligne.substring(0, separatorIndex);
-                    }
-                }
-                PaireChaineEntier unlexique = new PaireChaineEntier(chaine, nb);
-                lexique.add(unlexique);
             }
             scanner.close();
         } catch (IOException e) {
@@ -71,5 +65,20 @@ public class Categorie {
             score += UtilitairePaireChaineEntier.entierPourChaine(lexique, mot);
         }
         return score;
+    }
+
+    private void insereTrie(PaireChaineEntier paireChaineEntier){
+        int debut = 0;
+        int fin = lexique.size() - 1;
+        int milieu = (debut + fin) / 2;
+        while (debut < fin) {
+            if (lexique.get(milieu).getChaine().toLowerCase().compareTo(paireChaineEntier.getChaine().toLowerCase()) < 0) {
+                debut = milieu + 1;
+            } else {
+                fin = milieu;
+            }
+            milieu = (debut + fin) / 2;
+        }
+        lexique.add(fin, paireChaineEntier);
     }
 }
