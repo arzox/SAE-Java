@@ -26,14 +26,16 @@ public class Categorie {
 
     // initialisation du lexique de la catégorie à partir du contenu d'un fichier texte
     public void initLexique(String nomFichier) {
-
+        System.out.println("test");
     }
 
 
     //calcul du score d'une dépêche pour la catégorie
-    public int score(Depeche d) {
-        return 0;
+    public int score(Depeche depeche) {
+        int score = 0;
+        for (String mot : depeche.getMots()) {
+            score += UtilitairePaireChaineEntier.entierPourChaine(lexique, mot);
+        }
+        return score;
     }
-
-
 }

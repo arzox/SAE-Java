@@ -2,11 +2,16 @@ import java.io.FileInputStream;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Classification {
-
-
+    static Categorie sport = new Categorie("SPORTS");
+    static Categorie culture = new Categorie("CULTURE");
+    static Categorie economie = new Categorie("ECONOMIE");
+    static Categorie politique = new Categorie("POLITIQUE");
+    static Categorie envScience = new Categorie("ENVIRONNEMENT-SCIENCES");
+    static ArrayList<Categorie> categories = new ArrayList<>(Arrays.asList(sport, culture, economie, politique, envScience));
     private static ArrayList<Depeche> lectureDepeches(String nomFichier) {
         //creation d'un tableau de dépêches
         ArrayList<Depeche> depeches = new ArrayList<>();
@@ -27,7 +32,7 @@ public class Classification {
                 while (scanner.hasNextLine() && !ligne.equals("")) {
                     ligne = scanner.nextLine();
                     if (!ligne.equals("")) {
-                        lignes = lignes + '\n' + ligne;
+                        lignes += '\n' + ligne;
                     }
                 }
                 Depeche uneDepeche = new Depeche(id, date, categorie, lignes);
@@ -40,8 +45,27 @@ public class Classification {
         return depeches;
     }
 
+    public static void classementDepeches(ArrayList<Depeche> depeches, String nomFichier) {
+        for (Depeche depeche : depeches) {
+            UtilitaireWrite.write(nomFichier, "*************************************\n");
 
-    public static void classementDepeches(ArrayList<Depeche> depeches, ArrayList<Categorie> categories, String nomFichier) {
+            int max = 0;
+            for (Categorie categorie : categories) {
+                int currentScore = categorie.score(depeche);
+                if (currentScore > max) {
+                    max = currentScore;
+                }
+                try {
+                    FileWriter file = new FileWriter(nomFichier);
+                    file.write(depeche.getId() + ": " + categorie.getNom() + " " + currentScore + "\n");
+                    file.close();
+                } catch (IOException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
+            UtilitaireWrite.write(nomFichier, "*************************************\n\n");
+        }
     }
 
 
@@ -63,6 +87,12 @@ public class Classification {
     }
 
     public static void main(String[] args) {
+
+        sport.initLexique("sportLexique");
+        economie.initLexique("economieLexique");
+        politique.initLexique("politiqueLexique");
+        envScience.initLexique("envScienceLexique");
+        culture.initLexique("cultureLexique");
 
         //Chargement des dépêches en mémoire
         System.out.println("chargement des dépêches");
