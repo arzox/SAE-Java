@@ -1,6 +1,5 @@
-import Exceptions.categoryNullException;
-
 import java.io.FileInputStream;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -46,35 +45,27 @@ public class Classification {
         return depeches;
     }
 
-    public int score(Depeche depeche) {
-        Categorie currentCat;
-        int score = 0;
-        try {
-            currentCat = categorieFromDepeche(depeche);
-        } catch (categoryNullException e) {
-            System.out.println(e);
-            return 0;
-        }
+    public static void classementDepeches(ArrayList<Depeche> depeches, String nomFichier) {
+        for (Depeche depeche : depeches) {
+            UtilitaireWrite.write(nomFichier, "*************************************\n");
 
-        for (String mot : depeche.getMots()) {
-            score += UtilitairePaireChaineEntier.entierPourChaine(currentCat.getLexique(), mot);
-        }
-
-        return score;
-    }
-
-    public Categorie categorieFromDepeche(Depeche depeche) throws categoryNullException {
-        Categorie currentCat = null;
-        for (Categorie categorie : categories) {
-            if (depeche.getCategorie().equals(categorie.getNom())) {
-                currentCat = categorie;
+            int max = 0;
+            for (Categorie categorie : categories) {
+                int currentScore = categorie.score(depeche);
+                if (currentScore > max) {
+                    max = currentScore;
+                }
+                try {
+                    FileWriter file = new FileWriter(nomFichier);
+                    file.write(depeche.getId() + ": " + categorie.getNom() + " " + currentScore + "\n");
+                    file.close();
+                } catch (IOException e) {
+                    throw new RuntimeException(e);
+                }
             }
-        }
-        if (currentCat == null) {throw new categoryNullException("No category founded");}
-        return currentCat;
-    }
 
-    public static void classementDepeches(ArrayList<Depeche> depeches, ArrayList<Categorie> categories, String nomFichier) {
+            UtilitaireWrite.write(nomFichier, "*************************************\n\n");
+        }
     }
 
 
