@@ -1,0 +1,28 @@
+cellule:3
+tumeur:3
+cancer:3
+souches:1
+test:1
+cancer:3
+prostate:2
+médecins:2
+décès:2
+cardiaques:2
+automédication: 3
+médicaments: 2
+satellite: 2
+orbite: 2
+détruit:1
+CO2:2
+gaz:2
+pollution:3
+combustions:2
+greffes:2
+écologie:2
+sécheresse:2
+Terre:1
+forêt:2
+réchauffement:3
+chimiques:3
+toxiques:2
+exoplanètes:3
