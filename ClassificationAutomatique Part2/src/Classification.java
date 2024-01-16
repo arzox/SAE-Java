@@ -1,4 +1,7 @@
 import java.io.*;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.nio.file.StandardOpenOption;
 import java.util.*;
 
 public class Classification {
@@ -109,9 +112,36 @@ public class Classification {
         }
     }
 
+    public static int poidsPourScore(int score) {
+        if (score < 0) {
+            return 0;
+        } else if (score <= 5) {
+            return 1;
+        } else if (score <= 10) {
+            return 2;
+        } else {
+            return 3;
+        }
+    }
+
     public static void generationLexique(ArrayList<Depeche> depeches, Categorie categorie, String nomFichier){
         Map<String, Integer> dicoCat = initDico(depeches, categorie.getNom());
         calculScores(depeches, categorie, dicoCat);
+        for (Map.Entry<String, Integer> entry : dicoCat.entrySet()) {
+            int score = entry.getValue();
+            entry.setValue(poidsPourScore(score));
+        }
+
+        for (Map.Entry<String, Integer> entry : dicoCat.entrySet()) {
+            // écrire tout les mots et poids associée pour des poids > 0
+            try {
+                if(entry.getValue() > 0){
+                    Files.writeString(Paths.get(nomFichier), entry.getKey() + ":" + entry.getValue(), StandardOpenOption.APPEND);
+                }
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+        }
 
     }
 
@@ -129,11 +159,12 @@ public class Classification {
 
 
         Map<String, Integer> dicoSport = initDico(depeches, sport.getNom());
+        generationLexique(depeches, sport, "sportLEXIQUE");
     }
 
-    public static void afficherHashMap(Map<String, Integer> map) {
+    public static void afficherMap(Map<String, Integer> map) {
         for (Map.Entry<String, Integer> entry : map.entrySet()) {
-            System.out.println("Clé : " + entry.getKey() + " Valeur : " + entry.getValue());
+            System.out.println(entry.getKey() + ": " + entry.getValue());
         }
     }
 
