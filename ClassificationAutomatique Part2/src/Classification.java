@@ -112,6 +112,18 @@ public class Classification {
         return dico;
     }
 
+    public static void calculScores(ArrayList<Depeche> depeches, Categorie categorie, HashMap<String, Integer> dictionnaire) {
+        for (Depeche depeche : depeches) {
+            for (String mot : depeche.getMots()) {
+                String key = UtilitairePaireChaineEntier.keyFromWord(dictionnaire, mot);
+                if (!key.isEmpty()) {
+                    int i = depeche.getCategorie().getNom().equals(categorie.getNom()) ? i++ : i--;;
+                    dictionnaire.put(key, dictionnaire.get(key) + i);
+                }
+            }
+        }
+    }
+
     public static void main(String[] args) {
 
         sport.initLexique("./SPORTS.txt");
