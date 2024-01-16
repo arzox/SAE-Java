@@ -3,11 +3,12 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Scanner;
+import java.util.TreeMap;
 
 public class Categorie {
 
     private String nom; // le nom de la catégorie p.ex : sport, politique,...
-    private HashMap<String, Integer> lexique; //le lexique de la catégorie
+    private TreeMap<String, Integer> lexique; //le lexique de la catégorie
 
     public int score = 0;
     public int nbDepeches = 0;
@@ -23,7 +24,7 @@ public class Categorie {
     }
 
 
-    public HashMap<String, Integer> getLexique() {
+    public TreeMap<String, Integer> getLexique() {
         return lexique;
     }
 
@@ -31,7 +32,7 @@ public class Categorie {
     // initialisation du lexique de la catégorie à partir du contenu d'un fichier texte
     public void initLexique(String nomFichier) {
 
-        lexique = new HashMap<>();
+        lexique = new TreeMap<>();
 
         try {
             // lecture du fichier d'entrée
