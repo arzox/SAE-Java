@@ -8,6 +8,9 @@ public class Categorie {
     private String nom; // le nom de la catégorie p.ex : sport, politique,...
     private ArrayList<PaireChaineEntier> lexique; //le lexique de la catégorie
 
+    public int score = 0;
+    public int nbDepeches = 0;
+
     // constructeur
     public Categorie(String nom) {
         this.nom = nom;
@@ -47,7 +50,6 @@ public class Categorie {
                 else{
                     insereTrie(paireChaineEntier);
                 }
-
 
                 ligne = scanner.nextLine();
             }

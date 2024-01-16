@@ -1,4500 +1,508 @@
-*************************************
-ENVIRONNEMENT-SCIENCES
-001: SPORTS 29
-001: CULTURE 31
-001: ECONOMIE 39
-001: POLITIQUE 37
-001: ENVIRONNEMENT-SCIENCES 36
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-002: SPORTS 59
-002: CULTURE 76
-002: ECONOMIE 94
-002: POLITIQUE 76
-002: ENVIRONNEMENT-SCIENCES 74
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-003: SPORTS 80
-003: CULTURE 123
-003: ECONOMIE 118
-003: POLITIQUE 96
-003: ENVIRONNEMENT-SCIENCES 101
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-004: SPORTS 62
-004: CULTURE 89
-004: ECONOMIE 101
-004: POLITIQUE 85
-004: ENVIRONNEMENT-SCIENCES 85
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-005: SPORTS 81
-005: CULTURE 107
-005: ECONOMIE 114
-005: POLITIQUE 114
-005: ENVIRONNEMENT-SCIENCES 104
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-006: SPORTS 59
-006: CULTURE 102
-006: ECONOMIE 105
-006: POLITIQUE 77
-006: ENVIRONNEMENT-SCIENCES 92
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-007: SPORTS 79
-007: CULTURE 103
-007: ECONOMIE 113
-007: POLITIQUE 103
-007: ENVIRONNEMENT-SCIENCES 98
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-008: SPORTS 38
-008: CULTURE 58
-008: ECONOMIE 54
-008: POLITIQUE 43
-008: ENVIRONNEMENT-SCIENCES 45
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-009: SPORTS 64
-009: CULTURE 97
-009: ECONOMIE 108
-009: POLITIQUE 99
-009: ENVIRONNEMENT-SCIENCES 92
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-010: SPORTS 66
-010: CULTURE 97
-010: ECONOMIE 98
-010: POLITIQUE 86
-010: ENVIRONNEMENT-SCIENCES 86
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-011: SPORTS 98
-011: CULTURE 145
-011: ECONOMIE 144
-011: POLITIQUE 147
-011: ENVIRONNEMENT-SCIENCES 131
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-012: SPORTS 60
-012: CULTURE 90
-012: ECONOMIE 81
-012: POLITIQUE 64
-012: ENVIRONNEMENT-SCIENCES 68
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-013: SPORTS 75
-013: CULTURE 103
-013: ECONOMIE 110
-013: POLITIQUE 96
-013: ENVIRONNEMENT-SCIENCES 97
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-014: SPORTS 56
-014: CULTURE 77
-014: ECONOMIE 77
-014: POLITIQUE 76
-014: ENVIRONNEMENT-SCIENCES 68
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-015: SPORTS 46
-015: CULTURE 66
-015: ECONOMIE 72
-015: POLITIQUE 60
-015: ENVIRONNEMENT-SCIENCES 66
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-016: SPORTS 85
-016: CULTURE 121
-016: ECONOMIE 111
-016: POLITIQUE 105
-016: ENVIRONNEMENT-SCIENCES 101
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-017: SPORTS 68
-017: CULTURE 103
-017: ECONOMIE 109
-017: POLITIQUE 93
-017: ENVIRONNEMENT-SCIENCES 90
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-018: SPORTS 79
-018: CULTURE 101
-018: ECONOMIE 108
-018: POLITIQUE 94
-018: ENVIRONNEMENT-SCIENCES 100
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-019: SPORTS 66
-019: CULTURE 88
-019: ECONOMIE 100
-019: POLITIQUE 90
-019: ENVIRONNEMENT-SCIENCES 87
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-020: SPORTS 68
-020: CULTURE 85
-020: ECONOMIE 100
-020: POLITIQUE 85
-020: ENVIRONNEMENT-SCIENCES 85
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-021: SPORTS 61
-021: CULTURE 76
-021: ECONOMIE 81
-021: POLITIQUE 76
-021: ENVIRONNEMENT-SCIENCES 70
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-022: SPORTS 55
-022: CULTURE 82
-022: ECONOMIE 82
-022: POLITIQUE 67
-022: ENVIRONNEMENT-SCIENCES 69
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-023: SPORTS 108
-023: CULTURE 158
-023: ECONOMIE 149
-023: POLITIQUE 142
-023: ENVIRONNEMENT-SCIENCES 128
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-024: SPORTS 55
-024: CULTURE 83
-024: ECONOMIE 82
-024: POLITIQUE 81
-024: ENVIRONNEMENT-SCIENCES 73
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-025: SPORTS 66
-025: CULTURE 84
-025: ECONOMIE 95
-025: POLITIQUE 87
-025: ENVIRONNEMENT-SCIENCES 83
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-026: SPORTS 72
-026: CULTURE 88
-026: ECONOMIE 96
-026: POLITIQUE 89
-026: ENVIRONNEMENT-SCIENCES 83
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-027: SPORTS 75
-027: CULTURE 111
-027: ECONOMIE 109
-027: POLITIQUE 95
-027: ENVIRONNEMENT-SCIENCES 101
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-028: SPORTS 51
-028: CULTURE 73
-028: ECONOMIE 75
-028: POLITIQUE 63
-028: ENVIRONNEMENT-SCIENCES 65
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-029: SPORTS 56
-029: CULTURE 74
-029: ECONOMIE 76
-029: POLITIQUE 76
-029: ENVIRONNEMENT-SCIENCES 63
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-030: SPORTS 62
-030: CULTURE 89
-030: ECONOMIE 91
-030: POLITIQUE 87
-030: ENVIRONNEMENT-SCIENCES 81
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-031: SPORTS 75
-031: CULTURE 113
-031: ECONOMIE 102
-031: POLITIQUE 91
-031: ENVIRONNEMENT-SCIENCES 94
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-032: SPORTS 40
-032: CULTURE 66
-032: ECONOMIE 61
-032: POLITIQUE 43
-032: ENVIRONNEMENT-SCIENCES 56
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-033: SPORTS 121
-033: CULTURE 160
-033: ECONOMIE 166
-033: POLITIQUE 159
-033: ENVIRONNEMENT-SCIENCES 149
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-034: SPORTS 74
-034: CULTURE 120
-034: ECONOMIE 106
-034: POLITIQUE 74
-034: ENVIRONNEMENT-SCIENCES 98
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-035: SPORTS 55
-035: CULTURE 64
-035: ECONOMIE 61
-035: POLITIQUE 61
-035: ENVIRONNEMENT-SCIENCES 61
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-036: SPORTS 112
-036: CULTURE 162
-036: ECONOMIE 172
-036: POLITIQUE 149
-036: ENVIRONNEMENT-SCIENCES 148
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-037: SPORTS 102
-037: CULTURE 146
-037: ECONOMIE 151
-037: POLITIQUE 142
-037: ENVIRONNEMENT-SCIENCES 141
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-038: SPORTS 69
-038: CULTURE 90
-038: ECONOMIE 91
-038: POLITIQUE 78
-038: ENVIRONNEMENT-SCIENCES 80
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-039: SPORTS 54
-039: CULTURE 75
-039: ECONOMIE 75
-039: POLITIQUE 61
-039: ENVIRONNEMENT-SCIENCES 67
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-040: SPORTS 36
-040: CULTURE 56
-040: ECONOMIE 51
-040: POLITIQUE 46
-040: ENVIRONNEMENT-SCIENCES 44
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-041: SPORTS 56
-041: CULTURE 69
-041: ECONOMIE 78
-041: POLITIQUE 65
-041: ENVIRONNEMENT-SCIENCES 64
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-042: SPORTS 75
-042: CULTURE 101
-042: ECONOMIE 109
-042: POLITIQUE 108
-042: ENVIRONNEMENT-SCIENCES 98
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-043: SPORTS 73
-043: CULTURE 109
-043: ECONOMIE 110
-043: POLITIQUE 87
-043: ENVIRONNEMENT-SCIENCES 95
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-044: SPORTS 53
-044: CULTURE 87
-044: ECONOMIE 90
-044: POLITIQUE 74
-044: ENVIRONNEMENT-SCIENCES 79
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-045: SPORTS 47
-045: CULTURE 59
-045: ECONOMIE 64
-045: POLITIQUE 47
-045: ENVIRONNEMENT-SCIENCES 53
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-046: SPORTS 26
-046: CULTURE 38
-046: ECONOMIE 36
-046: POLITIQUE 32
-046: ENVIRONNEMENT-SCIENCES 34
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-047: SPORTS 50
-047: CULTURE 77
-047: ECONOMIE 85
-047: POLITIQUE 64
-047: ENVIRONNEMENT-SCIENCES 66
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-048: SPORTS 61
-048: CULTURE 106
-048: ECONOMIE 102
-048: POLITIQUE 80
-048: ENVIRONNEMENT-SCIENCES 91
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-049: SPORTS 76
-049: CULTURE 105
-049: ECONOMIE 109
-049: POLITIQUE 101
-049: ENVIRONNEMENT-SCIENCES 96
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-050: SPORTS 76
-050: CULTURE 127
-050: ECONOMIE 117
-050: POLITIQUE 92
-050: ENVIRONNEMENT-SCIENCES 112
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-051: SPORTS 52
-051: CULTURE 76
-051: ECONOMIE 76
-051: POLITIQUE 62
-051: ENVIRONNEMENT-SCIENCES 67
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-052: SPORTS 58
-052: CULTURE 79
-052: ECONOMIE 82
-052: POLITIQUE 68
-052: ENVIRONNEMENT-SCIENCES 70
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-053: SPORTS 72
-053: CULTURE 107
-053: ECONOMIE 100
-053: POLITIQUE 83
-053: ENVIRONNEMENT-SCIENCES 95
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-054: SPORTS 64
-054: CULTURE 96
-054: ECONOMIE 101
-054: POLITIQUE 84
-054: ENVIRONNEMENT-SCIENCES 90
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-055: SPORTS 37
-055: CULTURE 54
-055: ECONOMIE 46
-055: POLITIQUE 47
-055: ENVIRONNEMENT-SCIENCES 40
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-056: SPORTS 71
-056: CULTURE 104
-056: ECONOMIE 104
-056: POLITIQUE 84
-056: ENVIRONNEMENT-SCIENCES 90
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-057: SPORTS 49
-057: CULTURE 79
-057: ECONOMIE 74
-057: POLITIQUE 66
-057: ENVIRONNEMENT-SCIENCES 70
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-058: SPORTS 45
-058: CULTURE 64
-058: ECONOMIE 58
-058: POLITIQUE 46
-058: ENVIRONNEMENT-SCIENCES 54
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-059: SPORTS 61
-059: CULTURE 83
-059: ECONOMIE 85
-059: POLITIQUE 82
-059: ENVIRONNEMENT-SCIENCES 69
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-060: SPORTS 60
-060: CULTURE 97
-060: ECONOMIE 93
-060: POLITIQUE 84
-060: ENVIRONNEMENT-SCIENCES 76
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-061: SPORTS 61
-061: CULTURE 84
-061: ECONOMIE 82
-061: POLITIQUE 74
-061: ENVIRONNEMENT-SCIENCES 77
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-062: SPORTS 77
-062: CULTURE 112
-062: ECONOMIE 111
-062: POLITIQUE 100
-062: ENVIRONNEMENT-SCIENCES 101
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-063: SPORTS 57
-063: CULTURE 77
-063: ECONOMIE 74
-063: POLITIQUE 77
-063: ENVIRONNEMENT-SCIENCES 69
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-064: SPORTS 109
-064: CULTURE 136
-064: ECONOMIE 145
-064: POLITIQUE 143
-064: ENVIRONNEMENT-SCIENCES 130
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-065: SPORTS 78
-065: CULTURE 117
-065: ECONOMIE 119
-065: POLITIQUE 110
-065: ENVIRONNEMENT-SCIENCES 100
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-066: SPORTS 74
-066: CULTURE 106
-066: ECONOMIE 103
-066: POLITIQUE 85
-066: ENVIRONNEMENT-SCIENCES 96
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-067: SPORTS 83
-067: CULTURE 113
-067: ECONOMIE 130
-067: POLITIQUE 112
-067: ENVIRONNEMENT-SCIENCES 109
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-068: SPORTS 82
-068: CULTURE 144
-068: ECONOMIE 141
-068: POLITIQUE 117
-068: ENVIRONNEMENT-SCIENCES 122
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-069: SPORTS 82
-069: CULTURE 120
-069: ECONOMIE 114
-069: POLITIQUE 86
-069: ENVIRONNEMENT-SCIENCES 103
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-070: SPORTS 66
-070: CULTURE 84
-070: ECONOMIE 95
-070: POLITIQUE 87
-070: ENVIRONNEMENT-SCIENCES 83
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-071: SPORTS 72
-071: CULTURE 88
-071: ECONOMIE 96
-071: POLITIQUE 89
-071: ENVIRONNEMENT-SCIENCES 83
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-072: SPORTS 75
-072: CULTURE 111
-072: ECONOMIE 109
-072: POLITIQUE 95
-072: ENVIRONNEMENT-SCIENCES 101
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-073: SPORTS 51
-073: CULTURE 73
-073: ECONOMIE 75
-073: POLITIQUE 63
-073: ENVIRONNEMENT-SCIENCES 65
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-074: SPORTS 78
-074: CULTURE 110
-074: ECONOMIE 110
-074: POLITIQUE 89
-074: ENVIRONNEMENT-SCIENCES 94
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-075: SPORTS 41
-075: CULTURE 56
-075: ECONOMIE 68
-075: POLITIQUE 62
-075: ENVIRONNEMENT-SCIENCES 56
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-076: SPORTS 81
-076: CULTURE 103
-076: ECONOMIE 109
-076: POLITIQUE 95
-076: ENVIRONNEMENT-SCIENCES 102
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-077: SPORTS 79
-077: CULTURE 115
-077: ECONOMIE 115
-077: POLITIQUE 104
-077: ENVIRONNEMENT-SCIENCES 97
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-078: SPORTS 93
-078: CULTURE 142
-078: ECONOMIE 135
-078: POLITIQUE 112
-078: ENVIRONNEMENT-SCIENCES 124
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-079: SPORTS 77
-079: CULTURE 114
-079: ECONOMIE 106
-079: POLITIQUE 92
-079: ENVIRONNEMENT-SCIENCES 93
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-080: SPORTS 24
-080: CULTURE 33
-080: ECONOMIE 34
-080: POLITIQUE 32
-080: ENVIRONNEMENT-SCIENCES 29
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-081: SPORTS 63
-081: CULTURE 83
-081: ECONOMIE 95
-081: POLITIQUE 87
-081: ENVIRONNEMENT-SCIENCES 87
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-082: SPORTS 90
-082: CULTURE 131
-082: ECONOMIE 129
-082: POLITIQUE 113
-082: ENVIRONNEMENT-SCIENCES 115
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-083: SPORTS 38
-083: CULTURE 59
-083: ECONOMIE 65
-083: POLITIQUE 51
-083: ENVIRONNEMENT-SCIENCES 57
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-084: SPORTS 61
-084: CULTURE 81
-084: ECONOMIE 81
-084: POLITIQUE 78
-084: ENVIRONNEMENT-SCIENCES 78
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-085: SPORTS 101
-085: CULTURE 145
-085: ECONOMIE 146
-085: POLITIQUE 124
-085: ENVIRONNEMENT-SCIENCES 134
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-086: SPORTS 69
-086: CULTURE 91
-086: ECONOMIE 86
-086: POLITIQUE 80
-086: ENVIRONNEMENT-SCIENCES 74
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-087: SPORTS 63
-087: CULTURE 81
-087: ECONOMIE 89
-087: POLITIQUE 82
-087: ENVIRONNEMENT-SCIENCES 77
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-088: SPORTS 48
-088: CULTURE 76
-088: ECONOMIE 64
-088: POLITIQUE 60
-088: ENVIRONNEMENT-SCIENCES 64
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-089: SPORTS 94
-089: CULTURE 151
-089: ECONOMIE 145
-089: POLITIQUE 120
-089: ENVIRONNEMENT-SCIENCES 129
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-090: SPORTS 71
-090: CULTURE 99
-090: ECONOMIE 99
-090: POLITIQUE 78
-090: ENVIRONNEMENT-SCIENCES 84
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-091: SPORTS 92
-091: CULTURE 115
-091: ECONOMIE 112
-091: POLITIQUE 96
-091: ENVIRONNEMENT-SCIENCES 110
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-092: SPORTS 67
-092: CULTURE 99
-092: ECONOMIE 105
-092: POLITIQUE 86
-092: ENVIRONNEMENT-SCIENCES 91
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-093: SPORTS 101
-093: CULTURE 128
-093: ECONOMIE 133
-093: POLITIQUE 120
-093: ENVIRONNEMENT-SCIENCES 117
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-094: SPORTS 52
-094: CULTURE 66
-094: ECONOMIE 68
-094: POLITIQUE 48
-094: ENVIRONNEMENT-SCIENCES 60
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-095: SPORTS 54
-095: CULTURE 72
-095: ECONOMIE 80
-095: POLITIQUE 67
-095: ENVIRONNEMENT-SCIENCES 68
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-096: SPORTS 67
-096: CULTURE 101
-096: ECONOMIE 101
-096: POLITIQUE 79
-096: ENVIRONNEMENT-SCIENCES 89
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-097: SPORTS 36
-097: CULTURE 53
-097: ECONOMIE 50
-097: POLITIQUE 43
-097: ENVIRONNEMENT-SCIENCES 44
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-098: SPORTS 74
-098: CULTURE 107
-098: ECONOMIE 109
-098: POLITIQUE 98
-098: ENVIRONNEMENT-SCIENCES 98
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-099: SPORTS 52
-099: CULTURE 73
-099: ECONOMIE 64
-099: POLITIQUE 62
-099: ENVIRONNEMENT-SCIENCES 62
-*************************************
-
-*************************************
-ENVIRONNEMENT-SCIENCES
-100: SPORTS 68
-100: CULTURE 87
-100: ECONOMIE 83
-100: POLITIQUE 73
-100: ENVIRONNEMENT-SCIENCES 75
-*************************************
-
-*************************************
-CULTURE
-101: SPORTS 56
-101: CULTURE 78
-101: ECONOMIE 83
-101: POLITIQUE 83
-101: ENVIRONNEMENT-SCIENCES 77
-*************************************
-
-*************************************
-CULTURE
-102: SPORTS 26
-102: CULTURE 42
-102: ECONOMIE 39
-102: POLITIQUE 30
-102: ENVIRONNEMENT-SCIENCES 31
-*************************************
-
-*************************************
-CULTURE
-103: SPORTS 35
-103: CULTURE 49
-103: ECONOMIE 54
-103: POLITIQUE 49
-103: ENVIRONNEMENT-SCIENCES 45
-*************************************
-
-*************************************
-CULTURE
-104: SPORTS 61
-104: CULTURE 93
-104: ECONOMIE 99
-104: POLITIQUE 81
-104: ENVIRONNEMENT-SCIENCES 84
-*************************************
-
-*************************************
-CULTURE
-105: SPORTS 34
-105: CULTURE 49
-105: ECONOMIE 51
-105: POLITIQUE 44
-105: ENVIRONNEMENT-SCIENCES 46
-*************************************
-
-*************************************
-CULTURE
-106: SPORTS 31
-106: CULTURE 44
-106: ECONOMIE 44
-106: POLITIQUE 39
-106: ENVIRONNEMENT-SCIENCES 43
-*************************************
-
-*************************************
-CULTURE
-107: SPORTS 24
-107: CULTURE 39
-107: ECONOMIE 39
-107: POLITIQUE 29
-107: ENVIRONNEMENT-SCIENCES 32
-*************************************
-
-*************************************
-CULTURE
-108: SPORTS 78
-108: CULTURE 103
-108: ECONOMIE 99
-108: POLITIQUE 88
-108: ENVIRONNEMENT-SCIENCES 91
-*************************************
-
-*************************************
-CULTURE
-109: SPORTS 102
-109: CULTURE 153
-109: ECONOMIE 145
-109: POLITIQUE 124
-109: ENVIRONNEMENT-SCIENCES 136
-*************************************
-
-*************************************
-CULTURE
-110: SPORTS 43
-110: CULTURE 66
-110: ECONOMIE 56
-110: POLITIQUE 53
-110: ENVIRONNEMENT-SCIENCES 55
-*************************************
-
-*************************************
-CULTURE
-111: SPORTS 46
-111: CULTURE 71
-111: ECONOMIE 73
-111: POLITIQUE 65
-111: ENVIRONNEMENT-SCIENCES 67
-*************************************
-
-*************************************
-CULTURE
-112: SPORTS 43
-112: CULTURE 53
-112: ECONOMIE 56
-112: POLITIQUE 52
-112: ENVIRONNEMENT-SCIENCES 52
-*************************************
-
-*************************************
-CULTURE
-113: SPORTS 31
-113: CULTURE 50
-113: ECONOMIE 51
-113: POLITIQUE 39
-113: ENVIRONNEMENT-SCIENCES 43
-*************************************
-
-*************************************
-CULTURE
-114: SPORTS 45
-114: CULTURE 65
-114: ECONOMIE 66
-114: POLITIQUE 54
-114: ENVIRONNEMENT-SCIENCES 60
-*************************************
-
-*************************************
-CULTURE
-115: SPORTS 85
-115: CULTURE 121
-115: ECONOMIE 122
-115: POLITIQUE 104
-115: ENVIRONNEMENT-SCIENCES 111
-*************************************
-
-*************************************
-CULTURE
-116: SPORTS 37
-116: CULTURE 58
-116: ECONOMIE 53
-116: POLITIQUE 46
-116: ENVIRONNEMENT-SCIENCES 49
-*************************************
-
-*************************************
-CULTURE
-117: SPORTS 45
-117: CULTURE 84
-117: ECONOMIE 75
-117: POLITIQUE 57
-117: ENVIRONNEMENT-SCIENCES 66
-*************************************
-
-*************************************
-CULTURE
-118: SPORTS 25
-118: CULTURE 41
-118: ECONOMIE 35
-118: POLITIQUE 29
-118: ENVIRONNEMENT-SCIENCES 34
-*************************************
-
-*************************************
-CULTURE
-119: SPORTS 53
-119: CULTURE 70
-119: ECONOMIE 68
-119: POLITIQUE 76
-119: ENVIRONNEMENT-SCIENCES 62
-*************************************
-
-*************************************
-CULTURE
-120: SPORTS 45
-120: CULTURE 68
-120: ECONOMIE 64
-120: POLITIQUE 65
-120: ENVIRONNEMENT-SCIENCES 61
-*************************************
-
-*************************************
-CULTURE
-121: SPORTS 44
-121: CULTURE 71
-121: ECONOMIE 62
-121: POLITIQUE 49
-121: ENVIRONNEMENT-SCIENCES 56
-*************************************
-
-*************************************
-CULTURE
-122: SPORTS 70
-122: CULTURE 107
-122: ECONOMIE 93
-122: POLITIQUE 85
-122: ENVIRONNEMENT-SCIENCES 89
-*************************************
-
-*************************************
-CULTURE
-123: SPORTS 57
-123: CULTURE 94
-123: ECONOMIE 90
-123: POLITIQUE 69
-123: ENVIRONNEMENT-SCIENCES 84
-*************************************
-
-*************************************
-CULTURE
-124: SPORTS 36
-124: CULTURE 56
-124: ECONOMIE 47
-124: POLITIQUE 47
-124: ENVIRONNEMENT-SCIENCES 45
-*************************************
-
-*************************************
-CULTURE
-125: SPORTS 41
-125: CULTURE 52
-125: ECONOMIE 55
-125: POLITIQUE 46
-125: ENVIRONNEMENT-SCIENCES 49
-*************************************
-
-*************************************
-CULTURE
-126: SPORTS 66
-126: CULTURE 95
-126: ECONOMIE 104
-126: POLITIQUE 79
-126: ENVIRONNEMENT-SCIENCES 93
-*************************************
-
-*************************************
-CULTURE
-127: SPORTS 78
-127: CULTURE 132
-127: ECONOMIE 108
-127: POLITIQUE 94
-127: ENVIRONNEMENT-SCIENCES 103
-*************************************
-
-*************************************
-CULTURE
-128: SPORTS 35
-128: CULTURE 51
-128: ECONOMIE 47
-128: POLITIQUE 43
-128: ENVIRONNEMENT-SCIENCES 39
-*************************************
-
-*************************************
-CULTURE
-129: SPORTS 23
-129: CULTURE 34
-129: ECONOMIE 34
-129: POLITIQUE 29
-129: ENVIRONNEMENT-SCIENCES 27
-*************************************
-
-*************************************
-CULTURE
-130: SPORTS 60
-130: CULTURE 79
-130: ECONOMIE 79
-130: POLITIQUE 63
-130: ENVIRONNEMENT-SCIENCES 68
-*************************************
-
-*************************************
-CULTURE
-131: SPORTS 36
-131: CULTURE 51
-131: ECONOMIE 52
-131: POLITIQUE 43
-131: ENVIRONNEMENT-SCIENCES 41
-*************************************
-
-*************************************
-CULTURE
-132: SPORTS 43
-132: CULTURE 69
-132: ECONOMIE 70
-132: POLITIQUE 57
-132: ENVIRONNEMENT-SCIENCES 54
-*************************************
-
-*************************************
-CULTURE
-133: SPORTS 32
-133: CULTURE 49
-133: ECONOMIE 48
-133: POLITIQUE 40
-133: ENVIRONNEMENT-SCIENCES 41
-*************************************
-
-*************************************
-CULTURE
-134: SPORTS 42
-134: CULTURE 69
-134: ECONOMIE 72
-134: POLITIQUE 64
-134: ENVIRONNEMENT-SCIENCES 60
-*************************************
-
-*************************************
-CULTURE
-135: SPORTS 54
-135: CULTURE 84
-135: ECONOMIE 84
-135: POLITIQUE 72
-135: ENVIRONNEMENT-SCIENCES 71
-*************************************
-
-*************************************
-CULTURE
-136: SPORTS 42
-136: CULTURE 60
-136: ECONOMIE 58
-136: POLITIQUE 49
-136: ENVIRONNEMENT-SCIENCES 55
-*************************************
-
-*************************************
-CULTURE
-137: SPORTS 39
-137: CULTURE 54
-137: ECONOMIE 55
-137: POLITIQUE 52
-137: ENVIRONNEMENT-SCIENCES 49
-*************************************
-
-*************************************
-CULTURE
-138: SPORTS 48
-138: CULTURE 62
-138: ECONOMIE 56
-138: POLITIQUE 54
-138: ENVIRONNEMENT-SCIENCES 53
-*************************************
-
-*************************************
-CULTURE
-139: SPORTS 30
-139: CULTURE 44
-139: ECONOMIE 48
-139: POLITIQUE 41
-139: ENVIRONNEMENT-SCIENCES 44
-*************************************
-
-*************************************
-CULTURE
-140: SPORTS 85
-140: CULTURE 128
-140: ECONOMIE 137
-140: POLITIQUE 117
-140: ENVIRONNEMENT-SCIENCES 127
-*************************************
-
-*************************************
-CULTURE
-141: SPORTS 50
-141: CULTURE 60
-141: ECONOMIE 61
-141: POLITIQUE 64
-141: ENVIRONNEMENT-SCIENCES 59
-*************************************
-
-*************************************
-CULTURE
-142: SPORTS 35
-142: CULTURE 56
-142: ECONOMIE 53
-142: POLITIQUE 43
-142: ENVIRONNEMENT-SCIENCES 46
-*************************************
-
-*************************************
-CULTURE
-143: SPORTS 37
-143: CULTURE 65
-143: ECONOMIE 57
-143: POLITIQUE 52
-143: ENVIRONNEMENT-SCIENCES 50
-*************************************
-
-*************************************
-CULTURE
-144: SPORTS 51
-144: CULTURE 66
-144: ECONOMIE 64
-144: POLITIQUE 61
-144: ENVIRONNEMENT-SCIENCES 57
-*************************************
-
-*************************************
-CULTURE
-145: SPORTS 49
-145: CULTURE 74
-145: ECONOMIE 73
-145: POLITIQUE 52
-145: ENVIRONNEMENT-SCIENCES 62
-*************************************
-
-*************************************
-CULTURE
-146: SPORTS 23
-146: CULTURE 31
-146: ECONOMIE 35
-146: POLITIQUE 29
-146: ENVIRONNEMENT-SCIENCES 33
-*************************************
-
-*************************************
-CULTURE
-147: SPORTS 69
-147: CULTURE 83
-147: ECONOMIE 99
-147: POLITIQUE 92
-147: ENVIRONNEMENT-SCIENCES 84
-*************************************
-
-*************************************
-CULTURE
-148: SPORTS 35
-148: CULTURE 44
-148: ECONOMIE 48
-148: POLITIQUE 39
-148: ENVIRONNEMENT-SCIENCES 46
-*************************************
-
-*************************************
-CULTURE
-149: SPORTS 22
-149: CULTURE 26
-149: ECONOMIE 31
-149: POLITIQUE 28
-149: ENVIRONNEMENT-SCIENCES 26
-*************************************
-
-*************************************
-CULTURE
-150: SPORTS 58
-150: CULTURE 77
-150: ECONOMIE 84
-150: POLITIQUE 82
-150: ENVIRONNEMENT-SCIENCES 73
-*************************************
-
-*************************************
-CULTURE
-151: SPORTS 35
-151: CULTURE 60
-151: ECONOMIE 53
-151: POLITIQUE 48
-151: ENVIRONNEMENT-SCIENCES 44
-*************************************
-
-*************************************
-CULTURE
-152: SPORTS 57
-152: CULTURE 81
-152: ECONOMIE 75
-152: POLITIQUE 63
-152: ENVIRONNEMENT-SCIENCES 75
-*************************************
-
-*************************************
-CULTURE
-153: SPORTS 24
-153: CULTURE 45
-153: ECONOMIE 46
-153: POLITIQUE 40
-153: ENVIRONNEMENT-SCIENCES 36
-*************************************
-
-*************************************
-CULTURE
-154: SPORTS 28
-154: CULTURE 43
-154: ECONOMIE 42
-154: POLITIQUE 43
-154: ENVIRONNEMENT-SCIENCES 36
-*************************************
-
-*************************************
-CULTURE
-155: SPORTS 75
-155: CULTURE 127
-155: ECONOMIE 127
-155: POLITIQUE 97
-155: ENVIRONNEMENT-SCIENCES 116
-*************************************
-
-*************************************
-CULTURE
-156: SPORTS 65
-156: CULTURE 82
-156: ECONOMIE 88
-156: POLITIQUE 90
-156: ENVIRONNEMENT-SCIENCES 82
-*************************************
-
-*************************************
-CULTURE
-157: SPORTS 23
-157: CULTURE 28
-157: ECONOMIE 34
-157: POLITIQUE 31
-157: ENVIRONNEMENT-SCIENCES 28
-*************************************
-
-*************************************
-CULTURE
-158: SPORTS 56
-158: CULTURE 78
-158: ECONOMIE 78
-158: POLITIQUE 67
-158: ENVIRONNEMENT-SCIENCES 73
-*************************************
-
-*************************************
-CULTURE
-159: SPORTS 56
-159: CULTURE 72
-159: ECONOMIE 75
-159: POLITIQUE 68
-159: ENVIRONNEMENT-SCIENCES 64
-*************************************
-
-*************************************
-CULTURE
-160: SPORTS 39
-160: CULTURE 56
-160: ECONOMIE 54
-160: POLITIQUE 45
-160: ENVIRONNEMENT-SCIENCES 48
-*************************************
-
-*************************************
-CULTURE
-161: SPORTS 76
-161: CULTURE 105
-161: ECONOMIE 102
-161: POLITIQUE 95
-161: ENVIRONNEMENT-SCIENCES 92
-*************************************
-
-*************************************
-CULTURE
-162: SPORTS 36
-162: CULTURE 58
-162: ECONOMIE 55
-162: POLITIQUE 42
-162: ENVIRONNEMENT-SCIENCES 49
-*************************************
-
-*************************************
-CULTURE
-163: SPORTS 41
-163: CULTURE 66
-163: ECONOMIE 64
-163: POLITIQUE 52
-163: ENVIRONNEMENT-SCIENCES 58
-*************************************
-
-*************************************
-CULTURE
-164: SPORTS 29
-164: CULTURE 31
-164: ECONOMIE 30
-164: POLITIQUE 37
-164: ENVIRONNEMENT-SCIENCES 32
-*************************************
-
-*************************************
-CULTURE
-165: SPORTS 46
-165: CULTURE 70
-165: ECONOMIE 69
-165: POLITIQUE 60
-165: ENVIRONNEMENT-SCIENCES 67
-*************************************
-
-*************************************
-CULTURE
-166: SPORTS 42
-166: CULTURE 64
-166: ECONOMIE 55
-166: POLITIQUE 51
-166: ENVIRONNEMENT-SCIENCES 50
-*************************************
-
-*************************************
-CULTURE
-167: SPORTS 54
-167: CULTURE 87
-167: ECONOMIE 80
-167: POLITIQUE 68
-167: ENVIRONNEMENT-SCIENCES 75
-*************************************
-
-*************************************
-CULTURE
-168: SPORTS 52
-168: CULTURE 81
-168: ECONOMIE 78
-168: POLITIQUE 69
-168: ENVIRONNEMENT-SCIENCES 66
-*************************************
-
-*************************************
-CULTURE
-169: SPORTS 65
-169: CULTURE 98
-169: ECONOMIE 103
-169: POLITIQUE 89
-169: ENVIRONNEMENT-SCIENCES 92
-*************************************
-
-*************************************
-CULTURE
-170: SPORTS 38
-170: CULTURE 53
-170: ECONOMIE 56
-170: POLITIQUE 51
-170: ENVIRONNEMENT-SCIENCES 48
-*************************************
-
-*************************************
-CULTURE
-171: SPORTS 46
-171: CULTURE 66
-171: ECONOMIE 56
-171: POLITIQUE 45
-171: ENVIRONNEMENT-SCIENCES 51
-*************************************
-
-*************************************
-CULTURE
-172: SPORTS 70
-172: CULTURE 110
-172: ECONOMIE 102
-172: POLITIQUE 86
-172: ENVIRONNEMENT-SCIENCES 86
-*************************************
-
-*************************************
-CULTURE
-173: SPORTS 30
-173: CULTURE 39
-173: ECONOMIE 38
-173: POLITIQUE 34
-173: ENVIRONNEMENT-SCIENCES 35
-*************************************
-
-*************************************
-CULTURE
-174: SPORTS 33
-174: CULTURE 52
-174: ECONOMIE 45
-174: POLITIQUE 44
-174: ENVIRONNEMENT-SCIENCES 40
-*************************************
-
-*************************************
-CULTURE
-175: SPORTS 33
-175: CULTURE 55
-175: ECONOMIE 60
-175: POLITIQUE 49
-175: ENVIRONNEMENT-SCIENCES 47
-*************************************
-
-*************************************
-CULTURE
-176: SPORTS 24
-176: CULTURE 34
-176: ECONOMIE 33
-176: POLITIQUE 23
-176: ENVIRONNEMENT-SCIENCES 29
-*************************************
-
-*************************************
-CULTURE
-177: SPORTS 36
-177: CULTURE 57
-177: ECONOMIE 56
-177: POLITIQUE 45
-177: ENVIRONNEMENT-SCIENCES 47
-*************************************
-
-*************************************
-CULTURE
-178: SPORTS 26
-178: CULTURE 36
-178: ECONOMIE 36
-178: POLITIQUE 31
-178: ENVIRONNEMENT-SCIENCES 29
-*************************************
-
-*************************************
-CULTURE
-179: SPORTS 52
-179: CULTURE 88
-179: ECONOMIE 90
-179: POLITIQUE 79
-179: ENVIRONNEMENT-SCIENCES 79
-*************************************
-
-*************************************
-CULTURE
-180: SPORTS 33
-180: CULTURE 43
-180: ECONOMIE 48
-180: POLITIQUE 44
-180: ENVIRONNEMENT-SCIENCES 44
-*************************************
-
-*************************************
-CULTURE
-181: SPORTS 35
-181: CULTURE 44
-181: ECONOMIE 40
-181: POLITIQUE 39
-181: ENVIRONNEMENT-SCIENCES 39
-*************************************
-
-*************************************
-CULTURE
-182: SPORTS 64
-182: CULTURE 96
-182: ECONOMIE 87
-182: POLITIQUE 75
-182: ENVIRONNEMENT-SCIENCES 90
-*************************************
-
-*************************************
-CULTURE
-183: SPORTS 26
-183: CULTURE 38
-183: ECONOMIE 40
-183: POLITIQUE 35
-183: ENVIRONNEMENT-SCIENCES 36
-*************************************
-
-*************************************
-CULTURE
-184: SPORTS 75
-184: CULTURE 100
-184: ECONOMIE 96
-184: POLITIQUE 90
-184: ENVIRONNEMENT-SCIENCES 90
-*************************************
-
-*************************************
-CULTURE
-185: SPORTS 39
-185: CULTURE 62
-185: ECONOMIE 55
-185: POLITIQUE 52
-185: ENVIRONNEMENT-SCIENCES 48
-*************************************
-
-*************************************
-CULTURE
-186: SPORTS 35
-186: CULTURE 48
-186: ECONOMIE 45
-186: POLITIQUE 41
-186: ENVIRONNEMENT-SCIENCES 42
-*************************************
-
-*************************************
-CULTURE
-187: SPORTS 40
-187: CULTURE 52
-187: ECONOMIE 54
-187: POLITIQUE 49
-187: ENVIRONNEMENT-SCIENCES 44
-*************************************
-
-*************************************
-CULTURE
-188: SPORTS 43
-188: CULTURE 60
-188: ECONOMIE 58
-188: POLITIQUE 51
-188: ENVIRONNEMENT-SCIENCES 50
-*************************************
-
-*************************************
-CULTURE
-189: SPORTS 44
-189: CULTURE 64
-189: ECONOMIE 63
-189: POLITIQUE 59
-189: ENVIRONNEMENT-SCIENCES 60
-*************************************
-
-*************************************
-CULTURE
-190: SPORTS 22
-190: CULTURE 32
-190: ECONOMIE 30
-190: POLITIQUE 32
-190: ENVIRONNEMENT-SCIENCES 27
-*************************************
-
-*************************************
-CULTURE
-191: SPORTS 50
-191: CULTURE 73
-191: ECONOMIE 69
-191: POLITIQUE 57
-191: ENVIRONNEMENT-SCIENCES 63
-*************************************
-
-*************************************
-CULTURE
-192: SPORTS 42
-192: CULTURE 68
-192: ECONOMIE 64
-192: POLITIQUE 47
-192: ENVIRONNEMENT-SCIENCES 59
-*************************************
-
-*************************************
-CULTURE
-193: SPORTS 35
-193: CULTURE 46
-193: ECONOMIE 43
-193: POLITIQUE 39
-193: ENVIRONNEMENT-SCIENCES 44
-*************************************
-
-*************************************
-CULTURE
-194: SPORTS 67
-194: CULTURE 114
-194: ECONOMIE 113
-194: POLITIQUE 83
-194: ENVIRONNEMENT-SCIENCES 99
-*************************************
-
-*************************************
-CULTURE
-195: SPORTS 30
-195: CULTURE 52
-195: ECONOMIE 47
-195: POLITIQUE 42
-195: ENVIRONNEMENT-SCIENCES 42
-*************************************
-
-*************************************
-CULTURE
-196: SPORTS 34
-196: CULTURE 49
-196: ECONOMIE 48
-196: POLITIQUE 39
-196: ENVIRONNEMENT-SCIENCES 43
-*************************************
-
-*************************************
-CULTURE
-197: SPORTS 40
-197: CULTURE 60
-197: ECONOMIE 54
-197: POLITIQUE 44
-197: ENVIRONNEMENT-SCIENCES 57
-*************************************
-
-*************************************
-CULTURE
-198: SPORTS 44
-198: CULTURE 57
-198: ECONOMIE 52
-198: POLITIQUE 53
-198: ENVIRONNEMENT-SCIENCES 50
-*************************************
-
-*************************************
-CULTURE
-199: SPORTS 44
-199: CULTURE 72
-199: ECONOMIE 74
-199: POLITIQUE 62
-199: ENVIRONNEMENT-SCIENCES 67
-*************************************
-
-*************************************
-CULTURE
-200: SPORTS 38
-200: CULTURE 48
-200: ECONOMIE 47
-200: POLITIQUE 47
-200: ENVIRONNEMENT-SCIENCES 46
-*************************************
-
-*************************************
-ECONOMIE
-201: SPORTS 104
-201: CULTURE 156
-201: ECONOMIE 162
-201: POLITIQUE 131
-201: ENVIRONNEMENT-SCIENCES 137
-*************************************
-
-*************************************
-ECONOMIE
-202: SPORTS 49
-202: CULTURE 84
-202: ECONOMIE 83
-202: POLITIQUE 61
-202: ENVIRONNEMENT-SCIENCES 75
-*************************************
-
-*************************************
-ECONOMIE
-203: SPORTS 66
-203: CULTURE 89
-203: ECONOMIE 92
-203: POLITIQUE 85
-203: ENVIRONNEMENT-SCIENCES 86
-*************************************
-
-*************************************
-ECONOMIE
-204: SPORTS 28
-204: CULTURE 38
-204: ECONOMIE 35
-204: POLITIQUE 29
-204: ENVIRONNEMENT-SCIENCES 32
-*************************************
-
-*************************************
-ECONOMIE
-205: SPORTS 72
-205: CULTURE 102
-205: ECONOMIE 104
-205: POLITIQUE 101
-205: ENVIRONNEMENT-SCIENCES 88
-*************************************
-
-*************************************
-ECONOMIE
-206: SPORTS 14
-206: CULTURE 14
-206: ECONOMIE 21
-206: POLITIQUE 18
-206: ENVIRONNEMENT-SCIENCES 19
-*************************************
-
-*************************************
-ECONOMIE
-207: SPORTS 14
-207: CULTURE 18
-207: ECONOMIE 16
-207: POLITIQUE 17
-207: ENVIRONNEMENT-SCIENCES 16
-*************************************
-
-*************************************
-ECONOMIE
-208: SPORTS 15
-208: CULTURE 32
-208: ECONOMIE 28
-208: POLITIQUE 23
-208: ENVIRONNEMENT-SCIENCES 26
-*************************************
-
-*************************************
-ECONOMIE
-209: SPORTS 50
-209: CULTURE 84
-209: ECONOMIE 78
-209: POLITIQUE 61
-209: ENVIRONNEMENT-SCIENCES 70
-*************************************
-
-*************************************
-ECONOMIE
-210: SPORTS 44
-210: CULTURE 75
-210: ECONOMIE 70
-210: POLITIQUE 50
-210: ENVIRONNEMENT-SCIENCES 66
-*************************************
-
-*************************************
-ECONOMIE
-211: SPORTS 63
-211: CULTURE 93
-211: ECONOMIE 83
-211: POLITIQUE 78
-211: ENVIRONNEMENT-SCIENCES 81
-*************************************
-
-*************************************
-ECONOMIE
-212: SPORTS 79
-212: CULTURE 103
-212: ECONOMIE 115
-212: POLITIQUE 100
-212: ENVIRONNEMENT-SCIENCES 98
-*************************************
-
-*************************************
-ECONOMIE
-213: SPORTS 69
-213: CULTURE 109
-213: ECONOMIE 106
-213: POLITIQUE 86
-213: ENVIRONNEMENT-SCIENCES 93
-*************************************
-
-*************************************
-ECONOMIE
-214: SPORTS 102
-214: CULTURE 153
-214: ECONOMIE 145
-214: POLITIQUE 124
-214: ENVIRONNEMENT-SCIENCES 136
-*************************************
-
-*************************************
-ECONOMIE
-215: SPORTS 71
-215: CULTURE 105
-215: ECONOMIE 109
-215: POLITIQUE 88
-215: ENVIRONNEMENT-SCIENCES 91
-*************************************
-
-*************************************
-ECONOMIE
-216: SPORTS 60
-216: CULTURE 83
-216: ECONOMIE 72
-216: POLITIQUE 61
-216: ENVIRONNEMENT-SCIENCES 76
-*************************************
-
-*************************************
-ECONOMIE
-217: SPORTS 77
-217: CULTURE 127
-217: ECONOMIE 115
-217: POLITIQUE 95
-217: ENVIRONNEMENT-SCIENCES 105
-*************************************
-
-*************************************
-ECONOMIE
-218: SPORTS 84
-218: CULTURE 124
-218: ECONOMIE 118
-218: POLITIQUE 111
-218: ENVIRONNEMENT-SCIENCES 106
-*************************************
-
-*************************************
-ECONOMIE
-219: SPORTS 12
-219: CULTURE 16
-219: ECONOMIE 16
-219: POLITIQUE 13
-219: ENVIRONNEMENT-SCIENCES 13
-*************************************
-
-*************************************
-ECONOMIE
-220: SPORTS 37
-220: CULTURE 48
-220: ECONOMIE 44
-220: POLITIQUE 43
-220: ENVIRONNEMENT-SCIENCES 41
-*************************************
-
-*************************************
-ECONOMIE
-221: SPORTS 59
-221: CULTURE 102
-221: ECONOMIE 105
-221: POLITIQUE 77
-221: ENVIRONNEMENT-SCIENCES 92
-*************************************
-
-*************************************
-ECONOMIE
-222: SPORTS 94
-222: CULTURE 148
-222: ECONOMIE 155
-222: POLITIQUE 122
-222: ENVIRONNEMENT-SCIENCES 140
-*************************************
-
-*************************************
-ECONOMIE
-223: SPORTS 65
-223: CULTURE 98
-223: ECONOMIE 95
-223: POLITIQUE 78
-223: ENVIRONNEMENT-SCIENCES 89
-*************************************
-
-*************************************
-ECONOMIE
-224: SPORTS 55
-224: CULTURE 81
-224: ECONOMIE 79
-224: POLITIQUE 65
-224: ENVIRONNEMENT-SCIENCES 79
-*************************************
-
-*************************************
-ECONOMIE
-225: SPORTS 71
-225: CULTURE 100
-225: ECONOMIE 103
-225: POLITIQUE 95
-225: ENVIRONNEMENT-SCIENCES 94
-*************************************
-
-*************************************
-ECONOMIE
-226: SPORTS 74
-226: CULTURE 110
-226: ECONOMIE 114
-226: POLITIQUE 92
-226: ENVIRONNEMENT-SCIENCES 99
-*************************************
-
-*************************************
-ECONOMIE
-227: SPORTS 73
-227: CULTURE 101
-227: ECONOMIE 108
-227: POLITIQUE 97
-227: ENVIRONNEMENT-SCIENCES 90
-*************************************
-
-*************************************
-ECONOMIE
-228: SPORTS 89
-228: CULTURE 141
-228: ECONOMIE 145
-228: POLITIQUE 113
-228: ENVIRONNEMENT-SCIENCES 130
-*************************************
-
-*************************************
-ECONOMIE
-229: SPORTS 70
-229: CULTURE 93
-229: ECONOMIE 97
-229: POLITIQUE 85
-229: ENVIRONNEMENT-SCIENCES 86
-*************************************
-
-*************************************
-ECONOMIE
-230: SPORTS 58
-230: CULTURE 86
-230: ECONOMIE 76
-230: POLITIQUE 78
-230: ENVIRONNEMENT-SCIENCES 74
-*************************************
-
-*************************************
-ECONOMIE
-231: SPORTS 67
-231: CULTURE 86
-231: ECONOMIE 86
-231: POLITIQUE 81
-231: ENVIRONNEMENT-SCIENCES 86
-*************************************
-
-*************************************
-ECONOMIE
-232: SPORTS 15
-232: CULTURE 25
-232: ECONOMIE 21
-232: POLITIQUE 22
-232: ENVIRONNEMENT-SCIENCES 19
-*************************************
-
-*************************************
-ECONOMIE
-233: SPORTS 27
-233: CULTURE 41
-233: ECONOMIE 44
-233: POLITIQUE 35
-233: ENVIRONNEMENT-SCIENCES 42
-*************************************
-
-*************************************
-ECONOMIE
-234: SPORTS 36
-234: CULTURE 61
-234: ECONOMIE 68
-234: POLITIQUE 47
-234: ENVIRONNEMENT-SCIENCES 58
-*************************************
-
-*************************************
-ECONOMIE
-235: SPORTS 40
-235: CULTURE 66
-235: ECONOMIE 61
-235: POLITIQUE 43
-235: ENVIRONNEMENT-SCIENCES 56
-*************************************
-
-*************************************
-ECONOMIE
-236: SPORTS 88
-236: CULTURE 119
-236: ECONOMIE 114
-236: POLITIQUE 115
-236: ENVIRONNEMENT-SCIENCES 104
-*************************************
-
-*************************************
-ECONOMIE
-237: SPORTS 101
-237: CULTURE 149
-237: ECONOMIE 154
-237: POLITIQUE 125
-237: ENVIRONNEMENT-SCIENCES 137
-*************************************
-
-*************************************
-ECONOMIE
-238: SPORTS 34
-238: CULTURE 58
-238: ECONOMIE 58
-238: POLITIQUE 44
-238: ENVIRONNEMENT-SCIENCES 53
-*************************************
-
-*************************************
-ECONOMIE
-239: SPORTS 46
-239: CULTURE 67
-239: ECONOMIE 61
-239: POLITIQUE 52
-239: ENVIRONNEMENT-SCIENCES 52
-*************************************
-
-*************************************
-ECONOMIE
-240: SPORTS 60
-240: CULTURE 87
-240: ECONOMIE 91
-240: POLITIQUE 89
-240: ENVIRONNEMENT-SCIENCES 80
-*************************************
-
-*************************************
-ECONOMIE
-241: SPORTS 37
-241: CULTURE 43
-241: ECONOMIE 48
-241: POLITIQUE 42
-241: ENVIRONNEMENT-SCIENCES 44
-*************************************
-
-*************************************
-ECONOMIE
-242: SPORTS 52
-242: CULTURE 96
-242: ECONOMIE 91
-242: POLITIQUE 74
-242: ENVIRONNEMENT-SCIENCES 80
-*************************************
-
-*************************************
-ECONOMIE
-243: SPORTS 53
-243: CULTURE 90
-243: ECONOMIE 92
-243: POLITIQUE 75
-243: ENVIRONNEMENT-SCIENCES 82
-*************************************
-
-*************************************
-ECONOMIE
-244: SPORTS 54
-244: CULTURE 88
-244: ECONOMIE 83
-244: POLITIQUE 56
-244: ENVIRONNEMENT-SCIENCES 79
-*************************************
-
-*************************************
-ECONOMIE
-245: SPORTS 59
-245: CULTURE 81
-245: ECONOMIE 80
-245: POLITIQUE 80
-245: ENVIRONNEMENT-SCIENCES 72
-*************************************
-
-*************************************
-ECONOMIE
-246: SPORTS 74
-246: CULTURE 104
-246: ECONOMIE 108
-246: POLITIQUE 100
-246: ENVIRONNEMENT-SCIENCES 99
-*************************************
-
-*************************************
-ECONOMIE
-247: SPORTS 73
-247: CULTURE 112
-247: ECONOMIE 119
-247: POLITIQUE 99
-247: ENVIRONNEMENT-SCIENCES 98
-*************************************
-
-*************************************
-ECONOMIE
-248: SPORTS 36
-248: CULTURE 59
-248: ECONOMIE 51
-248: POLITIQUE 40
-248: ENVIRONNEMENT-SCIENCES 46
-*************************************
-
-*************************************
-ECONOMIE
-249: SPORTS 60
-249: CULTURE 89
-249: ECONOMIE 85
-249: POLITIQUE 67
-249: ENVIRONNEMENT-SCIENCES 80
-*************************************
-
-*************************************
-ECONOMIE
-250: SPORTS 60
-250: CULTURE 82
-250: ECONOMIE 82
-250: POLITIQUE 72
-250: ENVIRONNEMENT-SCIENCES 77
-*************************************
-
-*************************************
-ECONOMIE
-251: SPORTS 71
-251: CULTURE 102
-251: ECONOMIE 101
-251: POLITIQUE 105
-251: ENVIRONNEMENT-SCIENCES 96
-*************************************
-
-*************************************
-ECONOMIE
-252: SPORTS 60
-252: CULTURE 93
-252: ECONOMIE 90
-252: POLITIQUE 77
-252: ENVIRONNEMENT-SCIENCES 81
-*************************************
-
-*************************************
-ECONOMIE
-253: SPORTS 82
-253: CULTURE 117
-253: ECONOMIE 114
-253: POLITIQUE 103
-253: ENVIRONNEMENT-SCIENCES 101
-*************************************
-
-*************************************
-ECONOMIE
-254: SPORTS 73
-254: CULTURE 97
-254: ECONOMIE 92
-254: POLITIQUE 80
-254: ENVIRONNEMENT-SCIENCES 84
-*************************************
-
-*************************************
-ECONOMIE
-255: SPORTS 65
-255: CULTURE 97
-255: ECONOMIE 88
-255: POLITIQUE 81
-255: ENVIRONNEMENT-SCIENCES 82
-*************************************
-
-*************************************
-ECONOMIE
-256: SPORTS 84
-256: CULTURE 125
-256: ECONOMIE 118
-256: POLITIQUE 98
-256: ENVIRONNEMENT-SCIENCES 110
-*************************************
-
-*************************************
-ECONOMIE
-257: SPORTS 20
-257: CULTURE 21
-257: ECONOMIE 19
-257: POLITIQUE 16
-257: ENVIRONNEMENT-SCIENCES 20
-*************************************
-
-*************************************
-ECONOMIE
-258: SPORTS 22
-258: CULTURE 29
-258: ECONOMIE 28
-258: POLITIQUE 25
-258: ENVIRONNEMENT-SCIENCES 26
-*************************************
-
-*************************************
-ECONOMIE
-259: SPORTS 36
-259: CULTURE 47
-259: ECONOMIE 47
-259: POLITIQUE 44
-259: ENVIRONNEMENT-SCIENCES 39
-*************************************
-
-*************************************
-ECONOMIE
-260: SPORTS 77
-260: CULTURE 113
-260: ECONOMIE 106
-260: POLITIQUE 76
-260: ENVIRONNEMENT-SCIENCES 92
-*************************************
-
-*************************************
-ECONOMIE
-261: SPORTS 34
-261: CULTURE 57
-261: ECONOMIE 50
-261: POLITIQUE 35
-261: ENVIRONNEMENT-SCIENCES 49
-*************************************
-
-*************************************
-ECONOMIE
-262: SPORTS 69
-262: CULTURE 100
-262: ECONOMIE 104
-262: POLITIQUE 88
-262: ENVIRONNEMENT-SCIENCES 90
-*************************************
-
-*************************************
-ECONOMIE
-263: SPORTS 64
-263: CULTURE 90
-263: ECONOMIE 91
-263: POLITIQUE 84
-263: ENVIRONNEMENT-SCIENCES 79
-*************************************
-
-*************************************
-ECONOMIE
-264: SPORTS 58
-264: CULTURE 84
-264: ECONOMIE 83
-264: POLITIQUE 65
-264: ENVIRONNEMENT-SCIENCES 70
-*************************************
-
-*************************************
-ECONOMIE
-265: SPORTS 90
-265: CULTURE 141
-265: ECONOMIE 140
-265: POLITIQUE 121
-265: ENVIRONNEMENT-SCIENCES 117
-*************************************
-
-*************************************
-ECONOMIE
-266: SPORTS 38
-266: CULTURE 69
-266: ECONOMIE 68
-266: POLITIQUE 54
-266: ENVIRONNEMENT-SCIENCES 61
-*************************************
-
-*************************************
-ECONOMIE
-267: SPORTS 97
-267: CULTURE 159
-267: ECONOMIE 154
-267: POLITIQUE 132
-267: ENVIRONNEMENT-SCIENCES 127
-*************************************
-
-*************************************
-ECONOMIE
-268: SPORTS 56
-268: CULTURE 92
-268: ECONOMIE 86
-268: POLITIQUE 72
-268: ENVIRONNEMENT-SCIENCES 77
-*************************************
-
-*************************************
-ECONOMIE
-269: SPORTS 32
-269: CULTURE 62
-269: ECONOMIE 64
-269: POLITIQUE 46
-269: ENVIRONNEMENT-SCIENCES 55
-*************************************
-
-*************************************
-ECONOMIE
-270: SPORTS 91
-270: CULTURE 120
-270: ECONOMIE 116
-270: POLITIQUE 99
-270: ENVIRONNEMENT-SCIENCES 110
-*************************************
-
-*************************************
-ECONOMIE
-271: SPORTS 37
-271: CULTURE 54
-271: ECONOMIE 46
-271: POLITIQUE 47
-271: ENVIRONNEMENT-SCIENCES 40
-*************************************
-
-*************************************
-ECONOMIE
-272: SPORTS 27
-272: CULTURE 37
-272: ECONOMIE 37
-272: POLITIQUE 35
-272: ENVIRONNEMENT-SCIENCES 33
-*************************************
-
-*************************************
-ECONOMIE
-273: SPORTS 75
-273: CULTURE 96
-273: ECONOMIE 99
-273: POLITIQUE 78
-273: ENVIRONNEMENT-SCIENCES 91
-*************************************
-
-*************************************
-ECONOMIE
-274: SPORTS 66
-274: CULTURE 93
-274: ECONOMIE 92
-274: POLITIQUE 79
-274: ENVIRONNEMENT-SCIENCES 84
-*************************************
-
-*************************************
-ECONOMIE
-275: SPORTS 114
-275: CULTURE 163
-275: ECONOMIE 157
-275: POLITIQUE 150
-275: ENVIRONNEMENT-SCIENCES 138
-*************************************
-
-*************************************
-ECONOMIE
-276: SPORTS 85
-276: CULTURE 127
-276: ECONOMIE 127
-276: POLITIQUE 96
-276: ENVIRONNEMENT-SCIENCES 118
-*************************************
-
-*************************************
-ECONOMIE
-277: SPORTS 82
-277: CULTURE 123
-277: ECONOMIE 125
-277: POLITIQUE 114
-277: ENVIRONNEMENT-SCIENCES 114
-*************************************
-
-*************************************
-ECONOMIE
-278: SPORTS 50
-278: CULTURE 67
-278: ECONOMIE 63
-278: POLITIQUE 61
-278: ENVIRONNEMENT-SCIENCES 64
-*************************************
-
-*************************************
-ECONOMIE
-279: SPORTS 46
-279: CULTURE 58
-279: ECONOMIE 55
-279: POLITIQUE 56
-279: ENVIRONNEMENT-SCIENCES 54
-*************************************
-
-*************************************
-ECONOMIE
-280: SPORTS 66
-280: CULTURE 96
-280: ECONOMIE 95
-280: POLITIQUE 91
-280: ENVIRONNEMENT-SCIENCES 86
-*************************************
-
-*************************************
-ECONOMIE
-281: SPORTS 51
-281: CULTURE 78
-281: ECONOMIE 78
-281: POLITIQUE 64
-281: ENVIRONNEMENT-SCIENCES 71
-*************************************
-
-*************************************
-ECONOMIE
-282: SPORTS 54
-282: CULTURE 79
-282: ECONOMIE 73
-282: POLITIQUE 75
-282: ENVIRONNEMENT-SCIENCES 64
-*************************************
-
-*************************************
-ECONOMIE
-283: SPORTS 61
-283: CULTURE 81
-283: ECONOMIE 93
-283: POLITIQUE 88
-283: ENVIRONNEMENT-SCIENCES 77
-*************************************
-
-*************************************
-ECONOMIE
-284: SPORTS 90
-284: CULTURE 123
-284: ECONOMIE 117
-284: POLITIQUE 114
-284: ENVIRONNEMENT-SCIENCES 106
-*************************************
-
-*************************************
-ECONOMIE
-285: SPORTS 110
-285: CULTURE 149
-285: ECONOMIE 135
-285: POLITIQUE 120
-285: ENVIRONNEMENT-SCIENCES 140
-*************************************
-
-*************************************
-ECONOMIE
-286: SPORTS 74
-286: CULTURE 108
-286: ECONOMIE 102
-286: POLITIQUE 91
-286: ENVIRONNEMENT-SCIENCES 96
-*************************************
-
-*************************************
-ECONOMIE
-287: SPORTS 93
-287: CULTURE 157
-287: ECONOMIE 140
-287: POLITIQUE 119
-287: ENVIRONNEMENT-SCIENCES 131
-*************************************
-
-*************************************
-ECONOMIE
-288: SPORTS 86
-288: CULTURE 119
-288: ECONOMIE 116
-288: POLITIQUE 98
-288: ENVIRONNEMENT-SCIENCES 106
-*************************************
-
-*************************************
-ECONOMIE
-289: SPORTS 81
-289: CULTURE 120
-289: ECONOMIE 126
-289: POLITIQUE 110
-289: ENVIRONNEMENT-SCIENCES 106
-*************************************
-
-*************************************
-ECONOMIE
-290: SPORTS 136
-290: CULTURE 184
-290: ECONOMIE 183
-290: POLITIQUE 154
-290: ENVIRONNEMENT-SCIENCES 154
-*************************************
-
-*************************************
-ECONOMIE
-291: SPORTS 112
-291: CULTURE 159
-291: ECONOMIE 156
-291: POLITIQUE 133
-291: ENVIRONNEMENT-SCIENCES 148
-*************************************
-
-*************************************
-ECONOMIE
-292: SPORTS 64
-292: CULTURE 94
-292: ECONOMIE 93
-292: POLITIQUE 82
-292: ENVIRONNEMENT-SCIENCES 82
-*************************************
-
-*************************************
-ECONOMIE
-293: SPORTS 70
-293: CULTURE 106
-293: ECONOMIE 89
-293: POLITIQUE 82
-293: ENVIRONNEMENT-SCIENCES 92
-*************************************
-
-*************************************
-ECONOMIE
-294: SPORTS 57
-294: CULTURE 72
-294: ECONOMIE 73
-294: POLITIQUE 72
-294: ENVIRONNEMENT-SCIENCES 71
-*************************************
-
-*************************************
-ECONOMIE
-295: SPORTS 85
-295: CULTURE 115
-295: ECONOMIE 113
-295: POLITIQUE 106
-295: ENVIRONNEMENT-SCIENCES 110
-*************************************
-
-*************************************
-ECONOMIE
-296: SPORTS 115
-296: CULTURE 159
-296: ECONOMIE 166
-296: POLITIQUE 128
-296: ENVIRONNEMENT-SCIENCES 153
-*************************************
-
-*************************************
-ECONOMIE
-297: SPORTS 56
-297: CULTURE 82
-297: ECONOMIE 79
-297: POLITIQUE 74
-297: ENVIRONNEMENT-SCIENCES 72
-*************************************
-
-*************************************
-ECONOMIE
-298: SPORTS 51
-298: CULTURE 88
-298: ECONOMIE 91
-298: POLITIQUE 75
-298: ENVIRONNEMENT-SCIENCES 77
-*************************************
-
-*************************************
-ECONOMIE
-299: SPORTS 50
-299: CULTURE 69
-299: ECONOMIE 66
-299: POLITIQUE 61
-299: ENVIRONNEMENT-SCIENCES 57
-*************************************
-
-*************************************
-ECONOMIE
-300: SPORTS 87
-300: CULTURE 128
-300: ECONOMIE 124
-300: POLITIQUE 106
-300: ENVIRONNEMENT-SCIENCES 116
-*************************************
-
-*************************************
-POLITIQUE
-301: SPORTS 119
-301: CULTURE 177
-301: ECONOMIE 183
-301: POLITIQUE 145
-301: ENVIRONNEMENT-SCIENCES 152
-*************************************
-
-*************************************
-POLITIQUE
-302: SPORTS 46
-302: CULTURE 63
-302: ECONOMIE 64
-302: POLITIQUE 55
-302: ENVIRONNEMENT-SCIENCES 60
-*************************************
-
-*************************************
-POLITIQUE
-303: SPORTS 63
-303: CULTURE 92
-303: ECONOMIE 89
-303: POLITIQUE 76
-303: ENVIRONNEMENT-SCIENCES 77
-*************************************
-
-*************************************
-POLITIQUE
-304: SPORTS 69
-304: CULTURE 85
-304: ECONOMIE 93
-304: POLITIQUE 85
-304: ENVIRONNEMENT-SCIENCES 84
-*************************************
-
-*************************************
-POLITIQUE
-305: SPORTS 68
-305: CULTURE 102
-305: ECONOMIE 107
-305: POLITIQUE 95
-305: ENVIRONNEMENT-SCIENCES 87
-*************************************
-
-*************************************
-POLITIQUE
-306: SPORTS 94
-306: CULTURE 119
-306: ECONOMIE 131
-306: POLITIQUE 128
-306: ENVIRONNEMENT-SCIENCES 115
-*************************************
-
-*************************************
-POLITIQUE
-307: SPORTS 52
-307: CULTURE 91
-307: ECONOMIE 84
-307: POLITIQUE 62
-307: ENVIRONNEMENT-SCIENCES 73
-*************************************
-
-*************************************
-POLITIQUE
-308: SPORTS 88
-308: CULTURE 146
-308: ECONOMIE 131
-308: POLITIQUE 113
-308: ENVIRONNEMENT-SCIENCES 119
-*************************************
-
-*************************************
-POLITIQUE
-309: SPORTS 89
-309: CULTURE 119
-309: ECONOMIE 126
-309: POLITIQUE 114
-309: ENVIRONNEMENT-SCIENCES 116
-*************************************
-
-*************************************
-POLITIQUE
-310: SPORTS 102
-310: CULTURE 152
-310: ECONOMIE 149
-310: POLITIQUE 135
-310: ENVIRONNEMENT-SCIENCES 129
-*************************************
-
-*************************************
-POLITIQUE
-311: SPORTS 74
-311: CULTURE 112
-311: ECONOMIE 123
-311: POLITIQUE 97
-311: ENVIRONNEMENT-SCIENCES 101
-*************************************
-
-*************************************
-POLITIQUE
-312: SPORTS 62
-312: CULTURE 95
-312: ECONOMIE 95
-312: POLITIQUE 83
-312: ENVIRONNEMENT-SCIENCES 83
-*************************************
-
-*************************************
-POLITIQUE
-313: SPORTS 63
-313: CULTURE 97
-313: ECONOMIE 105
-313: POLITIQUE 89
-313: ENVIRONNEMENT-SCIENCES 85
-*************************************
-
-*************************************
-POLITIQUE
-314: SPORTS 60
-314: CULTURE 90
-314: ECONOMIE 87
-314: POLITIQUE 80
-314: ENVIRONNEMENT-SCIENCES 77
-*************************************
-
-*************************************
-POLITIQUE
-315: SPORTS 94
-315: CULTURE 112
-315: ECONOMIE 122
-315: POLITIQUE 110
-315: ENVIRONNEMENT-SCIENCES 106
-*************************************
-
-*************************************
-POLITIQUE
-316: SPORTS 92
-316: CULTURE 131
-316: ECONOMIE 132
-316: POLITIQUE 121
-316: ENVIRONNEMENT-SCIENCES 117
-*************************************
-
-*************************************
-POLITIQUE
-317: SPORTS 59
-317: CULTURE 82
-317: ECONOMIE 88
-317: POLITIQUE 80
-317: ENVIRONNEMENT-SCIENCES 75
-*************************************
-
-*************************************
-POLITIQUE
-318: SPORTS 88
-318: CULTURE 127
-318: ECONOMIE 131
-318: POLITIQUE 117
-318: ENVIRONNEMENT-SCIENCES 113
-*************************************
-
-*************************************
-POLITIQUE
-319: SPORTS 97
-319: CULTURE 138
-319: ECONOMIE 128
-319: POLITIQUE 107
-319: ENVIRONNEMENT-SCIENCES 118
-*************************************
-
-*************************************
-POLITIQUE
-320: SPORTS 78
-320: CULTURE 99
-320: ECONOMIE 107
-320: POLITIQUE 102
-320: ENVIRONNEMENT-SCIENCES 93
-*************************************
-
-*************************************
-POLITIQUE
-321: SPORTS 41
-321: CULTURE 69
-321: ECONOMIE 73
-321: POLITIQUE 55
-321: ENVIRONNEMENT-SCIENCES 63
-*************************************
-
-*************************************
-POLITIQUE
-322: SPORTS 79
-322: CULTURE 113
-322: ECONOMIE 106
-322: POLITIQUE 100
-322: ENVIRONNEMENT-SCIENCES 95
-*************************************
-
-*************************************
-POLITIQUE
-323: SPORTS 59
-323: CULTURE 81
-323: ECONOMIE 83
-323: POLITIQUE 73
-323: ENVIRONNEMENT-SCIENCES 78
-*************************************
-
-*************************************
-POLITIQUE
-324: SPORTS 96
-324: CULTURE 118
-324: ECONOMIE 119
-324: POLITIQUE 120
-324: ENVIRONNEMENT-SCIENCES 105
-*************************************
-
-*************************************
-POLITIQUE
-325: SPORTS 77
-325: CULTURE 111
-325: ECONOMIE 106
-325: POLITIQUE 102
-325: ENVIRONNEMENT-SCIENCES 99
-*************************************
-
-*************************************
-POLITIQUE
-326: SPORTS 73
-326: CULTURE 95
-326: ECONOMIE 94
-326: POLITIQUE 88
-326: ENVIRONNEMENT-SCIENCES 86
-*************************************
-
-*************************************
-POLITIQUE
-327: SPORTS 76
-327: CULTURE 113
-327: ECONOMIE 118
-327: POLITIQUE 94
-327: ENVIRONNEMENT-SCIENCES 107
-*************************************
-
-*************************************
-POLITIQUE
-328: SPORTS 51
-328: CULTURE 68
-328: ECONOMIE 61
-328: POLITIQUE 53
-328: ENVIRONNEMENT-SCIENCES 60
-*************************************
-
-*************************************
-POLITIQUE
-329: SPORTS 68
-329: CULTURE 97
-329: ECONOMIE 89
-329: POLITIQUE 82
-329: ENVIRONNEMENT-SCIENCES 81
-*************************************
-
-*************************************
-POLITIQUE
-330: SPORTS 74
-330: CULTURE 104
-330: ECONOMIE 102
-330: POLITIQUE 95
-330: ENVIRONNEMENT-SCIENCES 88
-*************************************
-
-*************************************
-POLITIQUE
-331: SPORTS 78
-331: CULTURE 109
-331: ECONOMIE 106
-331: POLITIQUE 100
-331: ENVIRONNEMENT-SCIENCES 94
-*************************************
-
-*************************************
-POLITIQUE
-332: SPORTS 49
-332: CULTURE 72
-332: ECONOMIE 67
-332: POLITIQUE 54
-332: ENVIRONNEMENT-SCIENCES 58
-*************************************
-
-*************************************
-POLITIQUE
-333: SPORTS 123
-333: CULTURE 186
-333: ECONOMIE 176
-333: POLITIQUE 145
-333: ENVIRONNEMENT-SCIENCES 161
-*************************************
-
-*************************************
-POLITIQUE
-334: SPORTS 80
-334: CULTURE 114
-334: ECONOMIE 127
-334: POLITIQUE 104
-334: ENVIRONNEMENT-SCIENCES 106
-*************************************
-
-*************************************
-POLITIQUE
-335: SPORTS 71
-335: CULTURE 112
-335: ECONOMIE 116
-335: POLITIQUE 87
-335: ENVIRONNEMENT-SCIENCES 100
-*************************************
-
-*************************************
-POLITIQUE
-336: SPORTS 62
-336: CULTURE 96
-336: ECONOMIE 87
-336: POLITIQUE 68
-336: ENVIRONNEMENT-SCIENCES 81
-*************************************
-
-*************************************
-POLITIQUE
-337: SPORTS 93
-337: CULTURE 121
-337: ECONOMIE 124
-337: POLITIQUE 115
-337: ENVIRONNEMENT-SCIENCES 115
-*************************************
-
-*************************************
-POLITIQUE
-338: SPORTS 81
-338: CULTURE 112
-338: ECONOMIE 108
-338: POLITIQUE 106
-338: ENVIRONNEMENT-SCIENCES 99
-*************************************
-
-*************************************
-POLITIQUE
-339: SPORTS 56
-339: CULTURE 69
-339: ECONOMIE 80
-339: POLITIQUE 80
-339: ENVIRONNEMENT-SCIENCES 69
-*************************************
-
-*************************************
-POLITIQUE
-340: SPORTS 48
-340: CULTURE 76
-340: ECONOMIE 77
-340: POLITIQUE 65
-340: ENVIRONNEMENT-SCIENCES 63
-*************************************
-
-*************************************
-POLITIQUE
-341: SPORTS 52
-341: CULTURE 80
-341: ECONOMIE 75
-341: POLITIQUE 59
-341: ENVIRONNEMENT-SCIENCES 68
-*************************************
-
-*************************************
-POLITIQUE
-342: SPORTS 41
-342: CULTURE 60
-342: ECONOMIE 56
-342: POLITIQUE 54
-342: ENVIRONNEMENT-SCIENCES 55
-*************************************
-
-*************************************
-POLITIQUE
-343: SPORTS 70
-343: CULTURE 104
-343: ECONOMIE 95
-343: POLITIQUE 74
-343: ENVIRONNEMENT-SCIENCES 93
-*************************************
-
-*************************************
-POLITIQUE
-344: SPORTS 59
-344: CULTURE 95
-344: ECONOMIE 100
-344: POLITIQUE 83
-344: ENVIRONNEMENT-SCIENCES 86
-*************************************
-
-*************************************
-POLITIQUE
-345: SPORTS 75
-345: CULTURE 115
-345: ECONOMIE 106
-345: POLITIQUE 94
-345: ENVIRONNEMENT-SCIENCES 95
-*************************************
-
-*************************************
-POLITIQUE
-346: SPORTS 74
-346: CULTURE 96
-346: ECONOMIE 106
-346: POLITIQUE 98
-346: ENVIRONNEMENT-SCIENCES 94
-*************************************
-
-*************************************
-POLITIQUE
-347: SPORTS 50
-347: CULTURE 60
-347: ECONOMIE 65
-347: POLITIQUE 60
-347: ENVIRONNEMENT-SCIENCES 53
-*************************************
-
-*************************************
-POLITIQUE
-348: SPORTS 69
-348: CULTURE 83
-348: ECONOMIE 99
-348: POLITIQUE 92
-348: ENVIRONNEMENT-SCIENCES 84
-*************************************
-
-*************************************
-POLITIQUE
-349: SPORTS 71
-349: CULTURE 90
-349: ECONOMIE 99
-349: POLITIQUE 85
-349: ENVIRONNEMENT-SCIENCES 84
-*************************************
-
-*************************************
-POLITIQUE
-350: SPORTS 65
-350: CULTURE 82
-350: ECONOMIE 88
-350: POLITIQUE 90
-350: ENVIRONNEMENT-SCIENCES 82
-*************************************
-
-*************************************
-POLITIQUE
-351: SPORTS 101
-351: CULTURE 154
-351: ECONOMIE 155
-351: POLITIQUE 139
-351: ENVIRONNEMENT-SCIENCES 134
-*************************************
-
-*************************************
-POLITIQUE
-352: SPORTS 56
-352: CULTURE 82
-352: ECONOMIE 85
-352: POLITIQUE 68
-352: ENVIRONNEMENT-SCIENCES 73
-*************************************
-
-*************************************
-POLITIQUE
-353: SPORTS 22
-353: CULTURE 35
-353: ECONOMIE 36
-353: POLITIQUE 27
-353: ENVIRONNEMENT-SCIENCES 30
-*************************************
-
-*************************************
-POLITIQUE
-354: SPORTS 40
-354: CULTURE 64
-354: ECONOMIE 58
-354: POLITIQUE 48
-354: ENVIRONNEMENT-SCIENCES 57
-*************************************
-
-*************************************
-POLITIQUE
-355: SPORTS 47
-355: CULTURE 67
-355: ECONOMIE 60
-355: POLITIQUE 49
-355: ENVIRONNEMENT-SCIENCES 55
-*************************************
-
-*************************************
-POLITIQUE
-356: SPORTS 38
-356: CULTURE 64
-356: ECONOMIE 63
-356: POLITIQUE 49
-356: ENVIRONNEMENT-SCIENCES 59
-*************************************
-
-*************************************
-POLITIQUE
-357: SPORTS 92
-357: CULTURE 123
-357: ECONOMIE 121
-357: POLITIQUE 113
-357: ENVIRONNEMENT-SCIENCES 104
-*************************************
-
-*************************************
-POLITIQUE
-358: SPORTS 82
-358: CULTURE 117
-358: ECONOMIE 114
-358: POLITIQUE 103
-358: ENVIRONNEMENT-SCIENCES 101
-*************************************
-
-*************************************
-POLITIQUE
-359: SPORTS 39
-359: CULTURE 63
-359: ECONOMIE 61
-359: POLITIQUE 45
-359: ENVIRONNEMENT-SCIENCES 59
-*************************************
-
-*************************************
-POLITIQUE
-360: SPORTS 72
-360: CULTURE 105
-360: ECONOMIE 99
-360: POLITIQUE 83
-360: ENVIRONNEMENT-SCIENCES 88
-*************************************
-
-*************************************
-POLITIQUE
-361: SPORTS 73
-361: CULTURE 97
-361: ECONOMIE 92
-361: POLITIQUE 80
-361: ENVIRONNEMENT-SCIENCES 84
-*************************************
-
-*************************************
-POLITIQUE
-362: SPORTS 57
-362: CULTURE 98
-362: ECONOMIE 92
-362: POLITIQUE 74
-362: ENVIRONNEMENT-SCIENCES 85
-*************************************
-
-*************************************
-POLITIQUE
-363: SPORTS 138
-363: CULTURE 198
-363: ECONOMIE 196
-363: POLITIQUE 177
-363: ENVIRONNEMENT-SCIENCES 180
-*************************************
-
-*************************************
-POLITIQUE
-364: SPORTS 69
-364: CULTURE 79
-364: ECONOMIE 82
-364: POLITIQUE 77
-364: ENVIRONNEMENT-SCIENCES 78
-*************************************
-
-*************************************
-POLITIQUE
-365: SPORTS 27
-365: CULTURE 37
-365: ECONOMIE 37
-365: POLITIQUE 35
-365: ENVIRONNEMENT-SCIENCES 33
-*************************************
-
-*************************************
-POLITIQUE
-366: SPORTS 73
-366: CULTURE 100
-366: ECONOMIE 110
-366: POLITIQUE 90
-366: ENVIRONNEMENT-SCIENCES 94
-*************************************
-
-*************************************
-POLITIQUE
-367: SPORTS 64
-367: CULTURE 92
-367: ECONOMIE 95
-367: POLITIQUE 86
-367: ENVIRONNEMENT-SCIENCES 84
-*************************************
-
-*************************************
-POLITIQUE
-368: SPORTS 81
-368: CULTURE 104
-368: ECONOMIE 101
-368: POLITIQUE 95
-368: ENVIRONNEMENT-SCIENCES 90
-*************************************
-
-*************************************
-POLITIQUE
-369: SPORTS 74
-369: CULTURE 110
-369: ECONOMIE 107
-369: POLITIQUE 90
-369: ENVIRONNEMENT-SCIENCES 99
-*************************************
-
-*************************************
-POLITIQUE
-370: SPORTS 113
-370: CULTURE 148
-370: ECONOMIE 140
-370: POLITIQUE 129
-370: ENVIRONNEMENT-SCIENCES 131
-*************************************
-
-*************************************
-POLITIQUE
-371: SPORTS 75
-371: CULTURE 109
-371: ECONOMIE 107
-371: POLITIQUE 98
-371: ENVIRONNEMENT-SCIENCES 87
-*************************************
-
-*************************************
-POLITIQUE
-372: SPORTS 93
-372: CULTURE 121
-372: ECONOMIE 124
-372: POLITIQUE 115
-372: ENVIRONNEMENT-SCIENCES 105
-*************************************
-
-*************************************
-POLITIQUE
-373: SPORTS 109
-373: CULTURE 128
-373: ECONOMIE 122
-373: POLITIQUE 121
-373: ENVIRONNEMENT-SCIENCES 113
-*************************************
-
-*************************************
-POLITIQUE
-374: SPORTS 47
-374: CULTURE 65
-374: ECONOMIE 59
-374: POLITIQUE 57
-374: ENVIRONNEMENT-SCIENCES 53
-*************************************
-
-*************************************
-POLITIQUE
-375: SPORTS 105
-375: CULTURE 159
-375: ECONOMIE 146
-375: POLITIQUE 141
-375: ENVIRONNEMENT-SCIENCES 132
-*************************************
-
-*************************************
-POLITIQUE
-376: SPORTS 68
-376: CULTURE 90
-376: ECONOMIE 84
-376: POLITIQUE 87
-376: ENVIRONNEMENT-SCIENCES 76
-*************************************
-
-*************************************
-POLITIQUE
-377: SPORTS 29
-377: CULTURE 43
-377: ECONOMIE 41
-377: POLITIQUE 31
-377: ENVIRONNEMENT-SCIENCES 40
-*************************************
-
-*************************************
-POLITIQUE
-378: SPORTS 57
-378: CULTURE 77
-378: ECONOMIE 68
-378: POLITIQUE 62
-378: ENVIRONNEMENT-SCIENCES 59
-*************************************
-
-*************************************
-POLITIQUE
-379: SPORTS 58
-379: CULTURE 80
-379: ECONOMIE 69
-379: POLITIQUE 62
-379: ENVIRONNEMENT-SCIENCES 60
-*************************************
-
-*************************************
-POLITIQUE
-380: SPORTS 61
-380: CULTURE 81
-380: ECONOMIE 93
-380: POLITIQUE 88
-380: ENVIRONNEMENT-SCIENCES 77
-*************************************
-
-*************************************
-POLITIQUE
-381: SPORTS 61
-381: CULTURE 81
-381: ECONOMIE 76
-381: POLITIQUE 71
-381: ENVIRONNEMENT-SCIENCES 75
-*************************************
-
-*************************************
-POLITIQUE
-382: SPORTS 86
-382: CULTURE 121
-382: ECONOMIE 120
-382: POLITIQUE 95
-382: ENVIRONNEMENT-SCIENCES 104
-*************************************
-
-*************************************
-POLITIQUE
-383: SPORTS 47
-383: CULTURE 70
-383: ECONOMIE 64
-383: POLITIQUE 58
-383: ENVIRONNEMENT-SCIENCES 60
-*************************************
-
-*************************************
-POLITIQUE
-384: SPORTS 53
-384: CULTURE 75
-384: ECONOMIE 76
-384: POLITIQUE 69
-384: ENVIRONNEMENT-SCIENCES 67
-*************************************
-
-*************************************
-POLITIQUE
-385: SPORTS 50
-385: CULTURE 72
-385: ECONOMIE 63
-385: POLITIQUE 55
-385: ENVIRONNEMENT-SCIENCES 59
-*************************************
-
-*************************************
-POLITIQUE
-386: SPORTS 91
-386: CULTURE 123
-386: ECONOMIE 114
-386: POLITIQUE 118
-386: ENVIRONNEMENT-SCIENCES 110
-*************************************
-
-*************************************
-POLITIQUE
-387: SPORTS 59
-387: CULTURE 96
-387: ECONOMIE 89
-387: POLITIQUE 62
-387: ENVIRONNEMENT-SCIENCES 79
-*************************************
-
-*************************************
-POLITIQUE
-388: SPORTS 47
-388: CULTURE 72
-388: ECONOMIE 63
-388: POLITIQUE 62
-388: ENVIRONNEMENT-SCIENCES 55
-*************************************
-
-*************************************
-POLITIQUE
-389: SPORTS 75
-389: CULTURE 94
-389: ECONOMIE 103
-389: POLITIQUE 103
-389: ENVIRONNEMENT-SCIENCES 94
-*************************************
-
-*************************************
-POLITIQUE
-390: SPORTS 116
-390: CULTURE 155
-390: ECONOMIE 147
-390: POLITIQUE 134
-390: ENVIRONNEMENT-SCIENCES 136
-*************************************
-
-*************************************
-POLITIQUE
-391: SPORTS 81
-391: CULTURE 105
-391: ECONOMIE 99
-391: POLITIQUE 88
-391: ENVIRONNEMENT-SCIENCES 93
-*************************************
-
-*************************************
-POLITIQUE
-392: SPORTS 83
-392: CULTURE 116
-392: ECONOMIE 110
-392: POLITIQUE 97
-392: ENVIRONNEMENT-SCIENCES 101
-*************************************
-
-*************************************
-POLITIQUE
-393: SPORTS 81
-393: CULTURE 120
-393: ECONOMIE 120
-393: POLITIQUE 103
-393: ENVIRONNEMENT-SCIENCES 100
-*************************************
-
-*************************************
-POLITIQUE
-394: SPORTS 73
-394: CULTURE 115
-394: ECONOMIE 101
-394: POLITIQUE 80
-394: ENVIRONNEMENT-SCIENCES 92
-*************************************
-
-*************************************
-POLITIQUE
-395: SPORTS 46
-395: CULTURE 71
-395: ECONOMIE 74
-395: POLITIQUE 69
-395: ENVIRONNEMENT-SCIENCES 63
-*************************************
-
-*************************************
-POLITIQUE
-396: SPORTS 54
-396: CULTURE 78
-396: ECONOMIE 72
-396: POLITIQUE 63
-396: ENVIRONNEMENT-SCIENCES 69
-*************************************
-
-*************************************
-POLITIQUE
-397: SPORTS 51
-397: CULTURE 65
-397: ECONOMIE 74
-397: POLITIQUE 73
-397: ENVIRONNEMENT-SCIENCES 64
-*************************************
-
-*************************************
-POLITIQUE
-398: SPORTS 59
-398: CULTURE 70
-398: ECONOMIE 83
-398: POLITIQUE 73
-398: ENVIRONNEMENT-SCIENCES 66
-*************************************
-
-*************************************
-POLITIQUE
-399: SPORTS 84
-399: CULTURE 119
-399: ECONOMIE 124
-399: POLITIQUE 103
-399: ENVIRONNEMENT-SCIENCES 111
-*************************************
-
-*************************************
-POLITIQUE
-400: SPORTS 80
-400: CULTURE 107
-400: ECONOMIE 115
-400: POLITIQUE 116
-400: ENVIRONNEMENT-SCIENCES 98
-*************************************
-
-*************************************
-SPORTS
-401: SPORTS 69
-401: CULTURE 95
-401: ECONOMIE 91
-401: POLITIQUE 82
-401: ENVIRONNEMENT-SCIENCES 81
-*************************************
-
-*************************************
-SPORTS
-402: SPORTS 51
-402: CULTURE 74
-402: ECONOMIE 71
-402: POLITIQUE 68
-402: ENVIRONNEMENT-SCIENCES 65
-*************************************
-
-*************************************
-SPORTS
-403: SPORTS 100
-403: CULTURE 138
-403: ECONOMIE 129
-403: POLITIQUE 116
-403: ENVIRONNEMENT-SCIENCES 124
-*************************************
-
-*************************************
-SPORTS
-404: SPORTS 56
-404: CULTURE 87
-404: ECONOMIE 84
-404: POLITIQUE 76
-404: ENVIRONNEMENT-SCIENCES 74
-*************************************
-
-*************************************
-SPORTS
-405: SPORTS 48
-405: CULTURE 71
-405: ECONOMIE 65
-405: POLITIQUE 56
-405: ENVIRONNEMENT-SCIENCES 62
-*************************************
-
-*************************************
-SPORTS
-406: SPORTS 48
-406: CULTURE 64
-406: ECONOMIE 74
-406: POLITIQUE 57
-406: ENVIRONNEMENT-SCIENCES 61
-*************************************
-
-*************************************
-SPORTS
-407: SPORTS 85
-407: CULTURE 120
-407: ECONOMIE 114
-407: POLITIQUE 98
-407: ENVIRONNEMENT-SCIENCES 104
-*************************************
-
-*************************************
-SPORTS
-408: SPORTS 63
-408: CULTURE 95
-408: ECONOMIE 100
-408: POLITIQUE 86
-408: ENVIRONNEMENT-SCIENCES 81
-*************************************
-
-*************************************
-SPORTS
-409: SPORTS 91
-409: CULTURE 132
-409: ECONOMIE 126
-409: POLITIQUE 115
-409: ENVIRONNEMENT-SCIENCES 110
-*************************************
-
-*************************************
-SPORTS
-410: SPORTS 77
-410: CULTURE 118
-410: ECONOMIE 112
-410: POLITIQUE 95
-410: ENVIRONNEMENT-SCIENCES 105
-*************************************
-
-*************************************
-SPORTS
-411: SPORTS 81
-411: CULTURE 122
-411: ECONOMIE 118
-411: POLITIQUE 94
-411: ENVIRONNEMENT-SCIENCES 112
-*************************************
-
-*************************************
-SPORTS
-412: SPORTS 55
-412: CULTURE 79
-412: ECONOMIE 83
-412: POLITIQUE 74
-412: ENVIRONNEMENT-SCIENCES 78
-*************************************
-
-*************************************
-SPORTS
-413: SPORTS 103
-413: CULTURE 163
-413: ECONOMIE 166
-413: POLITIQUE 134
-413: ENVIRONNEMENT-SCIENCES 145
-*************************************
-
-*************************************
-SPORTS
-414: SPORTS 62
-414: CULTURE 89
-414: ECONOMIE 93
-414: POLITIQUE 80
-414: ENVIRONNEMENT-SCIENCES 73
-*************************************
-
-*************************************
-SPORTS
-415: SPORTS 75
-415: CULTURE 111
-415: ECONOMIE 108
-415: POLITIQUE 95
-415: ENVIRONNEMENT-SCIENCES 91
-*************************************
-
-*************************************
-SPORTS
-416: SPORTS 42
-416: CULTURE 63
-416: ECONOMIE 54
-416: POLITIQUE 51
-416: ENVIRONNEMENT-SCIENCES 52
-*************************************
-
-*************************************
-SPORTS
-417: SPORTS 105
-417: CULTURE 150
-417: ECONOMIE 147
-417: POLITIQUE 132
-417: ENVIRONNEMENT-SCIENCES 135
-*************************************
-
-*************************************
-SPORTS
-418: SPORTS 50
-418: CULTURE 61
-418: ECONOMIE 55
-418: POLITIQUE 56
-418: ENVIRONNEMENT-SCIENCES 57
-*************************************
-
-*************************************
-SPORTS
-419: SPORTS 57
-419: CULTURE 83
-419: ECONOMIE 79
-419: POLITIQUE 64
-419: ENVIRONNEMENT-SCIENCES 72
-*************************************
-
-*************************************
-SPORTS
-420: SPORTS 83
-420: CULTURE 117
-420: ECONOMIE 118
-420: POLITIQUE 96
-420: ENVIRONNEMENT-SCIENCES 101
-*************************************
-
-*************************************
-SPORTS
-421: SPORTS 49
-421: CULTURE 73
-421: ECONOMIE 63
-421: POLITIQUE 55
-421: ENVIRONNEMENT-SCIENCES 57
-*************************************
-
-*************************************
-SPORTS
-422: SPORTS 76
-422: CULTURE 111
-422: ECONOMIE 105
-422: POLITIQUE 86
-422: ENVIRONNEMENT-SCIENCES 94
-*************************************
-
-*************************************
-SPORTS
-423: SPORTS 105
-423: CULTURE 136
-423: ECONOMIE 132
-423: POLITIQUE 133
-423: ENVIRONNEMENT-SCIENCES 123
-*************************************
-
-*************************************
-SPORTS
-424: SPORTS 86
-424: CULTURE 112
-424: ECONOMIE 114
-424: POLITIQUE 97
-424: ENVIRONNEMENT-SCIENCES 105
-*************************************
-
-*************************************
-SPORTS
-425: SPORTS 53
-425: CULTURE 73
-425: ECONOMIE 67
-425: POLITIQUE 56
-425: ENVIRONNEMENT-SCIENCES 62
-*************************************
-
-*************************************
-SPORTS
-426: SPORTS 83
-426: CULTURE 116
-426: ECONOMIE 113
-426: POLITIQUE 103
-426: ENVIRONNEMENT-SCIENCES 101
-*************************************
-
-*************************************
-SPORTS
-427: SPORTS 137
-427: CULTURE 188
-427: ECONOMIE 188
-427: POLITIQUE 170
-427: ENVIRONNEMENT-SCIENCES 162
-*************************************
-
-*************************************
-SPORTS
-428: SPORTS 74
-428: CULTURE 115
-428: ECONOMIE 108
-428: POLITIQUE 87
-428: ENVIRONNEMENT-SCIENCES 101
-*************************************
-
-*************************************
-SPORTS
-429: SPORTS 71
-429: CULTURE 102
-429: ECONOMIE 103
-429: POLITIQUE 97
-429: ENVIRONNEMENT-SCIENCES 86
-*************************************
-
-*************************************
-SPORTS
-430: SPORTS 53
-430: CULTURE 76
-430: ECONOMIE 77
-430: POLITIQUE 63
-430: ENVIRONNEMENT-SCIENCES 66
-*************************************
-
-*************************************
-SPORTS
-431: SPORTS 62
-431: CULTURE 78
-431: ECONOMIE 72
-431: POLITIQUE 74
-431: ENVIRONNEMENT-SCIENCES 70
-*************************************
-
-*************************************
-SPORTS
-432: SPORTS 60
-432: CULTURE 93
-432: ECONOMIE 95
-432: POLITIQUE 87
-432: ENVIRONNEMENT-SCIENCES 82
-*************************************
-
-*************************************
-SPORTS
-433: SPORTS 148
-433: CULTURE 219
-433: ECONOMIE 208
-433: POLITIQUE 189
-433: ENVIRONNEMENT-SCIENCES 190
-*************************************
-
-*************************************
-SPORTS
-434: SPORTS 113
-434: CULTURE 187
-434: ECONOMIE 162
-434: POLITIQUE 130
-434: ENVIRONNEMENT-SCIENCES 151
-*************************************
-
-*************************************
-SPORTS
-435: SPORTS 69
-435: CULTURE 86
-435: ECONOMIE 85
-435: POLITIQUE 76
-435: ENVIRONNEMENT-SCIENCES 78
-*************************************
-
-*************************************
-SPORTS
-436: SPORTS 28
-436: CULTURE 49
-436: ECONOMIE 40
-436: POLITIQUE 34
-436: ENVIRONNEMENT-SCIENCES 36
-*************************************
-
-*************************************
-SPORTS
-437: SPORTS 42
-437: CULTURE 48
-437: ECONOMIE 57
-437: POLITIQUE 46
-437: ENVIRONNEMENT-SCIENCES 46
-*************************************
-
-*************************************
-SPORTS
-438: SPORTS 67
-438: CULTURE 94
-438: ECONOMIE 90
-438: POLITIQUE 79
-438: ENVIRONNEMENT-SCIENCES 82
-*************************************
-
-*************************************
-SPORTS
-439: SPORTS 51
-439: CULTURE 75
-439: ECONOMIE 64
-439: POLITIQUE 59
-439: ENVIRONNEMENT-SCIENCES 61
-*************************************
-
-*************************************
-SPORTS
-440: SPORTS 50
-440: CULTURE 75
-440: ECONOMIE 78
-440: POLITIQUE 62
-440: ENVIRONNEMENT-SCIENCES 72
-*************************************
-
-*************************************
-SPORTS
-441: SPORTS 128
-441: CULTURE 151
-441: ECONOMIE 144
-441: POLITIQUE 148
-441: ENVIRONNEMENT-SCIENCES 149
-*************************************
-
-*************************************
-SPORTS
-442: SPORTS 131
-442: CULTURE 177
-442: ECONOMIE 176
-442: POLITIQUE 171
-442: ENVIRONNEMENT-SCIENCES 164
-*************************************
-
-*************************************
-SPORTS
-443: SPORTS 72
-443: CULTURE 96
-443: ECONOMIE 92
-443: POLITIQUE 88
-443: ENVIRONNEMENT-SCIENCES 90
-*************************************
-
-*************************************
-SPORTS
-444: SPORTS 78
-444: CULTURE 125
-444: ECONOMIE 129
-444: POLITIQUE 98
-444: ENVIRONNEMENT-SCIENCES 117
-*************************************
-
-*************************************
-SPORTS
-445: SPORTS 53
-445: CULTURE 69
-445: ECONOMIE 66
-445: POLITIQUE 61
-445: ENVIRONNEMENT-SCIENCES 63
-*************************************
-
-*************************************
-SPORTS
-446: SPORTS 22
-446: CULTURE 30
-446: ECONOMIE 27
-446: POLITIQUE 24
-446: ENVIRONNEMENT-SCIENCES 24
-*************************************
-
-*************************************
-SPORTS
-447: SPORTS 35
-447: CULTURE 46
-447: ECONOMIE 44
-447: POLITIQUE 35
-447: ENVIRONNEMENT-SCIENCES 39
-*************************************
-
-*************************************
-SPORTS
-448: SPORTS 105
-448: CULTURE 144
-448: ECONOMIE 144
-448: POLITIQUE 129
-448: ENVIRONNEMENT-SCIENCES 131
-*************************************
-
-*************************************
-SPORTS
-449: SPORTS 44
-449: CULTURE 71
-449: ECONOMIE 59
-449: POLITIQUE 52
-449: ENVIRONNEMENT-SCIENCES 53
-*************************************
-
-*************************************
-SPORTS
-450: SPORTS 74
-450: CULTURE 110
-450: ECONOMIE 95
-450: POLITIQUE 88
-450: ENVIRONNEMENT-SCIENCES 91
-*************************************
-
-*************************************
-SPORTS
-451: SPORTS 65
-451: CULTURE 79
-451: ECONOMIE 87
-451: POLITIQUE 77
-451: ENVIRONNEMENT-SCIENCES 81
-*************************************
-
-*************************************
-SPORTS
-452: SPORTS 75
-452: CULTURE 103
-452: ECONOMIE 96
-452: POLITIQUE 80
-452: ENVIRONNEMENT-SCIENCES 88
-*************************************
-
-*************************************
-SPORTS
-453: SPORTS 29
-453: CULTURE 48
-453: ECONOMIE 49
-453: POLITIQUE 48
-453: ENVIRONNEMENT-SCIENCES 40
-*************************************
-
-*************************************
-SPORTS
-454: SPORTS 95
-454: CULTURE 123
-454: ECONOMIE 136
-454: POLITIQUE 122
-454: ENVIRONNEMENT-SCIENCES 123
-*************************************
-
-*************************************
-SPORTS
-455: SPORTS 42
-455: CULTURE 51
-455: ECONOMIE 51
-455: POLITIQUE 52
-455: ENVIRONNEMENT-SCIENCES 48
-*************************************
-
-*************************************
-SPORTS
-456: SPORTS 27
-456: CULTURE 37
-456: ECONOMIE 39
-456: POLITIQUE 31
-456: ENVIRONNEMENT-SCIENCES 32
-*************************************
-
-*************************************
-SPORTS
-457: SPORTS 46
-457: CULTURE 60
-457: ECONOMIE 53
-457: POLITIQUE 55
-457: ENVIRONNEMENT-SCIENCES 50
-*************************************
-
-*************************************
-SPORTS
-458: SPORTS 48
-458: CULTURE 77
-458: ECONOMIE 65
-458: POLITIQUE 64
-458: ENVIRONNEMENT-SCIENCES 62
-*************************************
-
-*************************************
-SPORTS
-459: SPORTS 46
-459: CULTURE 61
-459: ECONOMIE 57
-459: POLITIQUE 56
-459: ENVIRONNEMENT-SCIENCES 48
-*************************************
-
-*************************************
-SPORTS
-460: SPORTS 81
-460: CULTURE 121
-460: ECONOMIE 110
-460: POLITIQUE 101
-460: ENVIRONNEMENT-SCIENCES 105
-*************************************
-
-*************************************
-SPORTS
-461: SPORTS 111
-461: CULTURE 163
-461: ECONOMIE 151
-461: POLITIQUE 121
-461: ENVIRONNEMENT-SCIENCES 136
-*************************************
-
-*************************************
-SPORTS
-462: SPORTS 84
-462: CULTURE 126
-462: ECONOMIE 118
-462: POLITIQUE 95
-462: ENVIRONNEMENT-SCIENCES 103
-*************************************
-
-*************************************
-SPORTS
-463: SPORTS 29
-463: CULTURE 45
-463: ECONOMIE 41
-463: POLITIQUE 31
-463: ENVIRONNEMENT-SCIENCES 37
-*************************************
-
-*************************************
-SPORTS
-464: SPORTS 37
-464: CULTURE 57
-464: ECONOMIE 59
-464: POLITIQUE 48
-464: ENVIRONNEMENT-SCIENCES 48
-*************************************
-
-*************************************
-SPORTS
-465: SPORTS 49
-465: CULTURE 62
-465: ECONOMIE 59
-465: POLITIQUE 53
-465: ENVIRONNEMENT-SCIENCES 51
-*************************************
-
-*************************************
-SPORTS
-466: SPORTS 84
-466: CULTURE 118
-466: ECONOMIE 117
-466: POLITIQUE 111
-466: ENVIRONNEMENT-SCIENCES 108
-*************************************
-
-*************************************
-SPORTS
-467: SPORTS 96
-467: CULTURE 152
-467: ECONOMIE 137
-467: POLITIQUE 133
-467: ENVIRONNEMENT-SCIENCES 136
-*************************************
-
-*************************************
-SPORTS
-468: SPORTS 106
-468: CULTURE 153
-468: ECONOMIE 153
-468: POLITIQUE 122
-468: ENVIRONNEMENT-SCIENCES 141
-*************************************
-
-*************************************
-SPORTS
-469: SPORTS 66
-469: CULTURE 92
-469: ECONOMIE 81
-469: POLITIQUE 61
-469: ENVIRONNEMENT-SCIENCES 76
-*************************************
-
-*************************************
-SPORTS
-470: SPORTS 72
-470: CULTURE 100
-470: ECONOMIE 102
-470: POLITIQUE 84
-470: ENVIRONNEMENT-SCIENCES 103
-*************************************
-
-*************************************
-SPORTS
-471: SPORTS 35
-471: CULTURE 52
-471: ECONOMIE 45
-471: POLITIQUE 38
-471: ENVIRONNEMENT-SCIENCES 43
-*************************************
-
-*************************************
-SPORTS
-472: SPORTS 97
-472: CULTURE 150
-472: ECONOMIE 142
-472: POLITIQUE 121
-472: ENVIRONNEMENT-SCIENCES 131
-*************************************
-
-*************************************
-SPORTS
-473: SPORTS 32
-473: CULTURE 39
-473: ECONOMIE 35
-473: POLITIQUE 33
-473: ENVIRONNEMENT-SCIENCES 35
-*************************************
-
-*************************************
-SPORTS
-474: SPORTS 124
-474: CULTURE 180
-474: ECONOMIE 172
-474: POLITIQUE 146
-474: ENVIRONNEMENT-SCIENCES 152
-*************************************
-
-*************************************
-SPORTS
-475: SPORTS 60
-475: CULTURE 73
-475: ECONOMIE 84
-475: POLITIQUE 81
-475: ENVIRONNEMENT-SCIENCES 72
-*************************************
-
-*************************************
-SPORTS
-476: SPORTS 73
-476: CULTURE 104
-476: ECONOMIE 102
-476: POLITIQUE 89
-476: ENVIRONNEMENT-SCIENCES 89
-*************************************
-
-*************************************
-SPORTS
-477: SPORTS 37
-477: CULTURE 62
-477: ECONOMIE 59
-477: POLITIQUE 51
-477: ENVIRONNEMENT-SCIENCES 54
-*************************************
-
-*************************************
-SPORTS
-478: SPORTS 50
-478: CULTURE 81
-478: ECONOMIE 73
-478: POLITIQUE 57
-478: ENVIRONNEMENT-SCIENCES 67
-*************************************
-
-*************************************
-SPORTS
-479: SPORTS 80
-479: CULTURE 122
-479: ECONOMIE 106
-479: POLITIQUE 95
-479: ENVIRONNEMENT-SCIENCES 102
-*************************************
-
-*************************************
-SPORTS
-480: SPORTS 87
-480: CULTURE 131
-480: ECONOMIE 131
-480: POLITIQUE 119
-480: ENVIRONNEMENT-SCIENCES 117
-*************************************
-
-*************************************
-SPORTS
-481: SPORTS 67
-481: CULTURE 109
-481: ECONOMIE 106
-481: POLITIQUE 74
-481: ENVIRONNEMENT-SCIENCES 101
-*************************************
-
-*************************************
-SPORTS
-482: SPORTS 69
-482: CULTURE 97
-482: ECONOMIE 103
-482: POLITIQUE 78
-482: ENVIRONNEMENT-SCIENCES 93
-*************************************
-
-*************************************
-SPORTS
-483: SPORTS 48
-483: CULTURE 63
-483: ECONOMIE 64
-483: POLITIQUE 59
-483: ENVIRONNEMENT-SCIENCES 56
-*************************************
-
-*************************************
-SPORTS
-484: SPORTS 45
-484: CULTURE 70
-484: ECONOMIE 67
-484: POLITIQUE 56
-484: ENVIRONNEMENT-SCIENCES 60
-*************************************
-
-*************************************
-SPORTS
-485: SPORTS 54
-485: CULTURE 69
-485: ECONOMIE 66
-485: POLITIQUE 61
-485: ENVIRONNEMENT-SCIENCES 61
-*************************************
-
-*************************************
-SPORTS
-486: SPORTS 37
-486: CULTURE 61
-486: ECONOMIE 55
-486: POLITIQUE 41
-486: ENVIRONNEMENT-SCIENCES 50
-*************************************
-
-*************************************
-SPORTS
-487: SPORTS 80
-487: CULTURE 110
-487: ECONOMIE 112
-487: POLITIQUE 101
-487: ENVIRONNEMENT-SCIENCES 99
-*************************************
-
-*************************************
-SPORTS
-488: SPORTS 80
-488: CULTURE 118
-488: ECONOMIE 107
-488: POLITIQUE 101
-488: ENVIRONNEMENT-SCIENCES 101
-*************************************
-
-*************************************
-SPORTS
-489: SPORTS 91
-489: CULTURE 105
-489: ECONOMIE 111
-489: POLITIQUE 107
-489: ENVIRONNEMENT-SCIENCES 96
-*************************************
-
-*************************************
-SPORTS
-490: SPORTS 100
-490: CULTURE 140
-490: ECONOMIE 137
-490: POLITIQUE 122
-490: ENVIRONNEMENT-SCIENCES 133
-*************************************
-
-*************************************
-SPORTS
-491: SPORTS 142
-491: CULTURE 199
-491: ECONOMIE 178
-491: POLITIQUE 162
-491: ENVIRONNEMENT-SCIENCES 162
-*************************************
-
-*************************************
-SPORTS
-492: SPORTS 74
-492: CULTURE 125
-492: ECONOMIE 110
-492: POLITIQUE 80
-492: ENVIRONNEMENT-SCIENCES 108
-*************************************
-
-*************************************
-SPORTS
-493: SPORTS 112
-493: CULTURE 164
-493: ECONOMIE 159
-493: POLITIQUE 118
-493: ENVIRONNEMENT-SCIENCES 143
-*************************************
-
-*************************************
-SPORTS
-494: SPORTS 56
-494: CULTURE 84
-494: ECONOMIE 72
-494: POLITIQUE 60
-494: ENVIRONNEMENT-SCIENCES 66
-*************************************
-
-*************************************
-SPORTS
-495: SPORTS 104
-495: CULTURE 144
-495: ECONOMIE 140
-495: POLITIQUE 123
-495: ENVIRONNEMENT-SCIENCES 133
-*************************************
-
-*************************************
-SPORTS
-496: SPORTS 137
-496: CULTURE 207
-496: ECONOMIE 190
-496: POLITIQUE 155
-496: ENVIRONNEMENT-SCIENCES 179
-*************************************
-
-*************************************
-SPORTS
-497: SPORTS 83
-497: CULTURE 118
-497: ECONOMIE 105
-497: POLITIQUE 99
-497: ENVIRONNEMENT-SCIENCES 103
-*************************************
-
-*************************************
-SPORTS
-498: SPORTS 100
-498: CULTURE 143
-498: ECONOMIE 132
-498: POLITIQUE 122
-498: ENVIRONNEMENT-SCIENCES 122
-*************************************
-
-*************************************
-SPORTS
-499: SPORTS 54
-499: CULTURE 82
-499: ECONOMIE 84
-499: POLITIQUE 66
-499: ENVIRONNEMENT-SCIENCES 77
-*************************************
-
-*************************************
-SPORTS
-500: SPORTS 50
-500: CULTURE 80
-500: ECONOMIE 67
-500: POLITIQUE 56
-500: ENVIRONNEMENT-SCIENCES 67
-*************************************
-
+001: ENVIRONNEMENT-SCIENCES
+002: ECONOMIE
+003: ENVIRONNEMENT-SCIENCES
+004: ENVIRONNEMENT-SCIENCES
+005: ENVIRONNEMENT-SCIENCES
+006: SPORTS
+007: ENVIRONNEMENT-SCIENCES
+008: ENVIRONNEMENT-SCIENCES
+009: ENVIRONNEMENT-SCIENCES
+010: POLITIQUE
+011: ENVIRONNEMENT-SCIENCES
+012: ENVIRONNEMENT-SCIENCES
+013: POLITIQUE
+014: ECONOMIE
+015: ENVIRONNEMENT-SCIENCES
+016: SPORTS
+017: SPORTS
+018: ENVIRONNEMENT-SCIENCES
+019: SPORTS
+020: ECONOMIE
+021: SPORTS
+022: SPORTS
+023: POLITIQUE
+024: POLITIQUE
+025: ENVIRONNEMENT-SCIENCES
+026: SPORTS
+027: POLITIQUE
+028: SPORTS
+029: ENVIRONNEMENT-SCIENCES
+030: ENVIRONNEMENT-SCIENCES
+031: SPORTS
+032: ECONOMIE
+033: POLITIQUE
+034: ENVIRONNEMENT-SCIENCES
+035: SPORTS
+036: ENVIRONNEMENT-SCIENCES
+037: SPORTS
+038: SPORTS
+039: ENVIRONNEMENT-SCIENCES
+040: SPORTS
+041: SPORTS
+042: SPORTS
+043: ENVIRONNEMENT-SCIENCES
+044: ENVIRONNEMENT-SCIENCES
+045: ENVIRONNEMENT-SCIENCES
+046: SPORTS
+047: ENVIRONNEMENT-SCIENCES
+048: SPORTS
+049: ENVIRONNEMENT-SCIENCES
+050: ENVIRONNEMENT-SCIENCES
+051: SPORTS
+052: POLITIQUE
+053: CULTURE
+054: POLITIQUE
+055: SPORTS
+056: ENVIRONNEMENT-SCIENCES
+057: SPORTS
+058: POLITIQUE
+059: SPORTS
+060: SPORTS
+061: SPORTS
+062: POLITIQUE
+063: SPORTS
+064: SPORTS
+065: SPORTS
+066: CULTURE
+067: POLITIQUE
+068: CULTURE
+069: SPORTS
+070: ENVIRONNEMENT-SCIENCES
+071: SPORTS
+072: POLITIQUE
+073: SPORTS
+074: ENVIRONNEMENT-SCIENCES
+075: SPORTS
+076: SPORTS
+077: ECONOMIE
+078: ENVIRONNEMENT-SCIENCES
+079: SPORTS
+080: ENVIRONNEMENT-SCIENCES
+081: SPORTS
+082: POLITIQUE
+083: CULTURE
+084: SPORTS
+085: POLITIQUE
+086: ENVIRONNEMENT-SCIENCES
+087: SPORTS
+088: SPORTS
+089: CULTURE
+090: ENVIRONNEMENT-SCIENCES
+091: SPORTS
+092: SPORTS
+093: ECONOMIE
+094: ECONOMIE
+095: CULTURE
+096: POLITIQUE
+097: POLITIQUE
+098: SPORTS
+099: SPORTS
+100: ENVIRONNEMENT-SCIENCES
+101: CULTURE
+102: CULTURE
+103: SPORTS
+104: CULTURE
+105: CULTURE
+106: CULTURE
+107: CULTURE
+108: SPORTS
+109: CULTURE
+110: CULTURE
+111: CULTURE
+112: CULTURE
+113: CULTURE
+114: ECONOMIE
+115: CULTURE
+116: CULTURE
+117: CULTURE
+118: CULTURE
+119: SPORTS
+120: CULTURE
+121: ECONOMIE
+122: POLITIQUE
+123: ECONOMIE
+124: CULTURE
+125: POLITIQUE
+126: SPORTS
+127: CULTURE
+128: CULTURE
+129: CULTURE
+130: CULTURE
+131: CULTURE
+132: CULTURE
+133: SPORTS
+134: CULTURE
+135: CULTURE
+136: CULTURE
+137: CULTURE
+138: CULTURE
+139: SPORTS
+140: CULTURE
+141: POLITIQUE
+142: SPORTS
+143: SPORTS
+144: CULTURE
+145: CULTURE
+146: CULTURE
+147: SPORTS
+148: SPORTS
+149: CULTURE
+150: CULTURE
+151: CULTURE
+152: CULTURE
+153: SPORTS
+154: SPORTS
+155: CULTURE
+156: POLITIQUE
+157: CULTURE
+158: CULTURE
+159: CULTURE
+160: SPORTS
+161: POLITIQUE
+162: CULTURE
+163: CULTURE
+164: CULTURE
+165: SPORTS
+166: CULTURE
+167: SPORTS
+168: CULTURE
+169: SPORTS
+170: CULTURE
+171: CULTURE
+172: CULTURE
+173: CULTURE
+174: CULTURE
+175: SPORTS
+176: CULTURE
+177: CULTURE
+178: SPORTS
+179: CULTURE
+180: SPORTS
+181: SPORTS
+182: CULTURE
+183: CULTURE
+184: CULTURE
+185: CULTURE
+186: CULTURE
+187: CULTURE
+188: CULTURE
+189: CULTURE
+190: SPORTS
+191: CULTURE
+192: CULTURE
+193: CULTURE
+194: ECONOMIE
+195: CULTURE
+196: SPORTS
+197: SPORTS
+198: CULTURE
+199: CULTURE
+200: SPORTS
+201: CULTURE
+202: ECONOMIE
+203: CULTURE
+204: ECONOMIE
+205: ECONOMIE
+206: SPORTS
+207: ECONOMIE
+208: ECONOMIE
+209: ECONOMIE
+210: ECONOMIE
+211: ENVIRONNEMENT-SCIENCES
+212: ECONOMIE
+213: ECONOMIE
+214: CULTURE
+215: ECONOMIE
+216: ECONOMIE
+217: ECONOMIE
+218: ECONOMIE
+219: SPORTS
+220: SPORTS
+221: SPORTS
+222: ECONOMIE
+223: SPORTS
+224: SPORTS
+225: ECONOMIE
+226: ECONOMIE
+227: POLITIQUE
+228: ECONOMIE
+229: ECONOMIE
+230: ECONOMIE
+231: SPORTS
+232: SPORTS
+233: SPORTS
+234: SPORTS
+235: ECONOMIE
+236: ECONOMIE
+237: ECONOMIE
+238: CULTURE
+239: ENVIRONNEMENT-SCIENCES
+240: SPORTS
+241: ECONOMIE
+242: ECONOMIE
+243: ECONOMIE
+244: ECONOMIE
+245: ECONOMIE
+246: CULTURE
+247: CULTURE
+248: POLITIQUE
+249: POLITIQUE
+250: ECONOMIE
+251: POLITIQUE
+252: ECONOMIE
+253: POLITIQUE
+254: SPORTS
+255: ECONOMIE
+256: SPORTS
+257: SPORTS
+258: SPORTS
+259: ECONOMIE
+260: ECONOMIE
+261: SPORTS
+262: POLITIQUE
+263: CULTURE
+264: POLITIQUE
+265: ECONOMIE
+266: ECONOMIE
+267: ECONOMIE
+268: ECONOMIE
+269: SPORTS
+270: ECONOMIE
+271: SPORTS
+272: SPORTS
+273: SPORTS
+274: ECONOMIE
+275: ECONOMIE
+276: ECONOMIE
+277: SPORTS
+278: ECONOMIE
+279: ECONOMIE
+280: ECONOMIE
+281: CULTURE
+282: SPORTS
+283: ECONOMIE
+284: POLITIQUE
+285: ECONOMIE
+286: ECONOMIE
+287: ECONOMIE
+288: CULTURE
+289: ECONOMIE
+290: CULTURE
+291: POLITIQUE
+292: SPORTS
+293: ECONOMIE
+294: SPORTS
+295: ENVIRONNEMENT-SCIENCES
+296: SPORTS
+297: ECONOMIE
+298: ECONOMIE
+299: POLITIQUE
+300: ECONOMIE
+301: SPORTS
+302: POLITIQUE
+303: POLITIQUE
+304: POLITIQUE
+305: POLITIQUE
+306: POLITIQUE
+307: POLITIQUE
+308: POLITIQUE
+309: POLITIQUE
+310: POLITIQUE
+311: SPORTS
+312: POLITIQUE
+313: SPORTS
+314: POLITIQUE
+315: POLITIQUE
+316: POLITIQUE
+317: POLITIQUE
+318: SPORTS
+319: POLITIQUE
+320: POLITIQUE
+321: POLITIQUE
+322: POLITIQUE
+323: POLITIQUE
+324: POLITIQUE
+325: POLITIQUE
+326: POLITIQUE
+327: SPORTS
+328: SPORTS
+329: SPORTS
+330: POLITIQUE
+331: SPORTS
+332: POLITIQUE
+333: POLITIQUE
+334: POLITIQUE
+335: POLITIQUE
+336: SPORTS
+337: SPORTS
+338: POLITIQUE
+339: POLITIQUE
+340: POLITIQUE
+341: POLITIQUE
+342: POLITIQUE
+343: POLITIQUE
+344: POLITIQUE
+345: POLITIQUE
+346: POLITIQUE
+347: POLITIQUE
+348: SPORTS
+349: SPORTS
+350: POLITIQUE
+351: ECONOMIE
+352: POLITIQUE
+353: POLITIQUE
+354: SPORTS
+355: POLITIQUE
+356: POLITIQUE
+357: POLITIQUE
+358: POLITIQUE
+359: POLITIQUE
+360: ECONOMIE
+361: SPORTS
+362: SPORTS
+363: POLITIQUE
+364: SPORTS
+365: SPORTS
+366: ECONOMIE
+367: POLITIQUE
+368: POLITIQUE
+369: POLITIQUE
+370: ECONOMIE
+371: POLITIQUE
+372: POLITIQUE
+373: POLITIQUE
+374: SPORTS
+375: POLITIQUE
+376: POLITIQUE
+377: SPORTS
+378: POLITIQUE
+379: POLITIQUE
+380: ECONOMIE
+381: SPORTS
+382: POLITIQUE
+383: POLITIQUE
+384: POLITIQUE
+385: SPORTS
+386: POLITIQUE
+387: SPORTS
+388: POLITIQUE
+389: POLITIQUE
+390: POLITIQUE
+391: POLITIQUE
+392: POLITIQUE
+393: POLITIQUE
+394: POLITIQUE
+395: CULTURE
+396: SPORTS
+397: POLITIQUE
+398: POLITIQUE
+399: POLITIQUE
+400: POLITIQUE
+401: POLITIQUE
+402: SPORTS
+403: SPORTS
+404: SPORTS
+405: SPORTS
+406: SPORTS
+407: POLITIQUE
+408: SPORTS
+409: CULTURE
+410: SPORTS
+411: SPORTS
+412: SPORTS
+413: CULTURE
+414: SPORTS
+415: SPORTS
+416: SPORTS
+417: SPORTS
+418: SPORTS
+419: SPORTS
+420: SPORTS
+421: SPORTS
+422: SPORTS
+423: SPORTS
+424: SPORTS
+425: SPORTS
+426: SPORTS
+427: SPORTS
+428: SPORTS
+429: POLITIQUE
+430: SPORTS
+431: SPORTS
+432: SPORTS
+433: SPORTS
+434: SPORTS
+435: SPORTS
+436: SPORTS
+437: POLITIQUE
+438: SPORTS
+439: SPORTS
+440: SPORTS
+441: SPORTS
+442: SPORTS
+443: SPORTS
+444: SPORTS
+445: SPORTS
+446: SPORTS
+447: POLITIQUE
+448: SPORTS
+449: SPORTS
+450: SPORTS
+451: SPORTS
+452: SPORTS
+453: SPORTS
+454: SPORTS
+455: SPORTS
+456: SPORTS
+457: SPORTS
+458: SPORTS
+459: SPORTS
+460: SPORTS
+461: SPORTS
+462: SPORTS
+463: SPORTS
+464: SPORTS
+465: ECONOMIE
+466: SPORTS
+467: SPORTS
+468: SPORTS
+469: SPORTS
+470: SPORTS
+471: SPORTS
+472: SPORTS
+473: SPORTS
+474: SPORTS
+475: ENVIRONNEMENT-SCIENCES
+476: SPORTS
+477: ECONOMIE
+478: SPORTS
+479: SPORTS
+480: CULTURE
+481: SPORTS
+482: SPORTS
+483: SPORTS
+484: SPORTS
+485: SPORTS
+486: SPORTS
+487: SPORTS
+488: SPORTS
+489: POLITIQUE
+490: SPORTS
+491: SPORTS
+492: SPORTS
+493: SPORTS
+494: ECONOMIE
+495: SPORTS
+496: SPORTS
+497: SPORTS
+498: SPORTS
+499: SPORTS
+500: SPORTS
+
+------------------
+SPORTS: 87.0%
+CULTURE: 67.0%
+ECONOMIE: 52.0%
+POLITIQUE: 71.0%
+ENVIRONNEMENT-SCIENCES: 31.0%
+------------------

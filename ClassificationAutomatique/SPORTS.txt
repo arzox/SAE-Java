@@ -6,6 +6,7 @@ domicile:1
 Tournoi:3
 Coupe:3
 victoire:1
+defaite:1
 équipe:2
 rugby:3
 basket-ball:3

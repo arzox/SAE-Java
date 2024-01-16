@@ -1,10 +1,4 @@
-import javax.xml.catalog.Catalog;
 import java.io.*;
-import java.nio.charset.StandardCharsets;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
-import java.nio.file.StandardOpenOption;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
@@ -39,7 +33,7 @@ public class Classification {
                         lignes += '\n' + ligne;
                     }
                 }
-                Depeche uneDepeche = new Depeche(id, date, categorie, lignes);
+                Depeche uneDepeche = new Depeche(id, date, getCategorieFromName(categorie), lignes);
                 depeches.add(uneDepeche);
             }
             scanner.close();
@@ -49,27 +43,46 @@ public class Classification {
         return depeches;
     }
 
+    public static Categorie getCategorieFromName(String name) {
+        for (Categorie categorie : categories) {
+            if (categorie.getNom().equalsIgnoreCase(name)) {
+                return categorie;
+            }
+        }
+        return null;
+    }
+
+    private static Categorie bestCategorie(Depeche depeche) {
+        int max = 0;
+        Categorie bestCategorie = categories.get(0);
+        for (Categorie categorie : categories) {
+            int currentScore = categorie.score(depeche);
+            if (currentScore > max) {
+                max = currentScore;
+                bestCategorie = categorie;
+            }
+        }
+        return bestCategorie;
+    }
+
     public static void classementDepeches(ArrayList<Depeche> depeches, String nomFichier) {
         UtilitaireWrite.clear(nomFichier);
 
         for (Depeche depeche : depeches) {
-            UtilitaireWrite.write(nomFichier, "*************************************\n");
-            UtilitaireWrite.write(nomFichier, depeche.getCategorie() + "\n");
-
-            int max = 0;
-            for (Categorie categorie : categories) {
-                int currentScore = categorie.score(depeche);
-                if (currentScore > max) {
-                    max = currentScore;
-                }
-
-                UtilitaireWrite.write(nomFichier, depeche.getId() + ": " + categorie.getNom() + " " + currentScore + "\n");
+            Categorie bestScoringCategorie = bestCategorie(depeche);
+            UtilitaireWrite.write(nomFichier, depeche.getId() + ": " + bestScoringCategorie.getNom() + "\n");
+            if (bestScoringCategorie.getNom().equals(depeche.getCategorie().getNom())) {
+                bestScoringCategorie.score++;
             }
-
-            UtilitaireWrite.write(nomFichier, "*************************************\n\n");
+            depeche.getCategorie().nbDepeches++;
         }
-    }
 
+        UtilitaireWrite.write(nomFichier, "\n------------------\n");
+        for (Categorie categorie : categories) {
+            UtilitaireWrite.write(nomFichier, categorie.getNom() + ": " + (float) categorie.score / categorie.nbDepeches * 100 + "%\n");
+        }
+        UtilitaireWrite.write(nomFichier, "------------------");
+    }
 
     public static ArrayList<PaireChaineEntier> initDico(ArrayList<Depeche> depeches, String categorie) {
         ArrayList<PaireChaineEntier> resultat = new ArrayList<>();

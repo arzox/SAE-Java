@@ -4,12 +4,12 @@ public class Depeche {
 
     private String id;
     private String date;
-    private String categorie;
+    private Categorie categorie;
     private String contenu;
     private ArrayList<String> mots;
 
 
-    public Depeche(String id, String date, String categorie, String contenu) {
+    public Depeche(String id, String date, Categorie categorie, String contenu) {
         this.id = id;
         this.date = date;
         this.categorie = categorie;
@@ -53,11 +53,11 @@ public class Depeche {
         this.date = date;
     }
 
-    public String getCategorie() {
+    public Categorie getCategorie() {
         return categorie;
     }
 
-    public void setCategorie(String categorie) {
+    public void setCategorie(Categorie categorie) {
         this.categorie = categorie;
     }
 
