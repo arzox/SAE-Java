@@ -1,8 +1,5 @@
 import java.io.*;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Scanner;
+import java.util.*;
 
 public class Classification {
     static Categorie sport = new Categorie("SPORTS");
@@ -85,8 +82,8 @@ public class Classification {
         UtilitaireWrite.write(nomFichier, "------------------");
     }
 
-    public static HashMap<String, Integer> initDico(ArrayList<Depeche> depeches, String categorie) {
-        HashMap<String, Integer> dico = new HashMap<>();
+    public static TreeMap<String, Integer> initDico(ArrayList<Depeche> depeches, String categorie) {
+        TreeMap<String, Integer> dico = new TreeMap<>();
 
         String contenu = "";
 
@@ -112,15 +109,27 @@ public class Classification {
         return dico;
     }
 
-    public static void calculScores(ArrayList<Depeche> depeches, Categorie categorie, HashMap<String, Integer> dictionnaire) {
+    public static void calculScores(ArrayList<Depeche> depeches, Categorie categorie, TreeMap<String, Integer> dictionnaire) {
         for (Depeche depeche : depeches) {
             for (String mot : depeche.getMots()) {
                 String key = UtilitairePaireChaineEntier.keyFromWord(dictionnaire, mot);
                 if (!key.isEmpty()) {
-                    int i = depeche.getCategorie().getNom().equals(categorie.getNom()) ? i++ : i--;;
+                    int i = depeche.getCategorie().getNom().equals(categorie.getNom()) ? 1 : -1;;
                     dictionnaire.put(key, dictionnaire.get(key) + i);
                 }
             }
+        }
+    }
+
+    public static int poidsPourScore(int score) {
+        if (score < 0) {
+            return 0;
+        } else if (score <= 5) {
+            return 1;
+        } else if (score <= 10) {
+            return 2;
+        } else {
+            return 3;
         }
     }
 
