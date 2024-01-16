@@ -97,7 +97,7 @@ public class Classification {
     }
 
 
-    public static void calculScores(ArrayList<Depeche> depeches, Categorie categorie, HashMap<String, Integer> dictionnaire) {
+    public static void calculScores(ArrayList<Depeche> depeches, Categorie categorie, Map<String, Integer> dictionnaire) {
         for (Depeche depeche : depeches) {
             for (String mot : depeche.getMots()) {
                 String key = UtilitairePaireChaineEntier.keyFromWord(dictionnaire, mot);
@@ -107,6 +107,12 @@ public class Classification {
                 }
             }
         }
+    }
+
+    public static void generationLexique(ArrayList<Depeche> depeches, Categorie categorie, String nomFichier){
+        Map<String, Integer> dicoCat = initDico(depeches, categorie.getNom());
+        calculScores(depeches, categorie, dicoCat);
+
     }
 
     public static void main(String[] args) {
@@ -122,9 +128,7 @@ public class Classification {
         ArrayList<Depeche> depeches = lectureDepeches("./depeches.txt");
 
 
-        Map<String, Integer> test = initDico(depeches, sport.getNom());
-        System.out.println(test.size());
-        afficherHashMap(test);
+        Map<String, Integer> dicoSport = initDico(depeches, sport.getNom());
     }
 
     public static void afficherHashMap(Map<String, Integer> map) {

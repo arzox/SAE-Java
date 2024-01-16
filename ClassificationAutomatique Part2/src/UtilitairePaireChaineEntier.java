@@ -1,10 +1,11 @@
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Map;
 
 public class UtilitairePaireChaineEntier {
 
 
-    public static String keyFromWord(HashMap<String, Integer> hashMapPaires, String chaine) {
+    public static String keyFromWord(Map<String, Integer> hashMapPaires, String chaine) {
         ArrayList<String> listePaires = new ArrayList<>(hashMapPaires.keySet());
         int debut = 0;
         int fin = listePaires.size() - 1;
