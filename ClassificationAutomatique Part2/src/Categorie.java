@@ -1,12 +1,13 @@
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.Scanner;
 
 public class Categorie {
 
     private String nom; // le nom de la catégorie p.ex : sport, politique,...
-    private ArrayList<PaireChaineEntier> lexique; //le lexique de la catégorie
+    private HashMap<String, Integer> lexique; //le lexique de la catégorie
 
     public int score = 0;
     public int nbDepeches = 0;
