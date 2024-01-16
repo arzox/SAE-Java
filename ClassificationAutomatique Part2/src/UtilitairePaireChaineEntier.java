@@ -1,11 +1,12 @@
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.TreeMap;
 
 public class UtilitairePaireChaineEntier {
 
 
-    public static String keyFromWord(HashMap<String, Integer> hashMapPaires, String chaine) {
-        ArrayList<String> listePaires = new ArrayList<>(hashMapPaires.keySet());
+    public static String keyFromWord(TreeMap<String, Integer> treeMap, String chaine) {
+        ArrayList<String> listePaires = new ArrayList<>(treeMap.keySet());
         int debut = 0;
         int fin = listePaires.size() - 1;
         int milieu = (debut + fin) / 2;
@@ -21,5 +22,10 @@ public class UtilitairePaireChaineEntier {
             milieu = (debut + fin) / 2;
         }
         return "";
+    }
+
+    public static int valueFromWord(TreeMap<String, Integer> hashMapPaires, String chaine) {
+        String key = keyFromWord(hashMapPaires, chaine);
+        return key.isEmpty() ? 0 : hashMapPaires.get(key);
     }
 }

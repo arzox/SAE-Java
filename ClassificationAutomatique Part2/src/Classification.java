@@ -97,7 +97,7 @@ public class Classification {
     }
 
 
-    public static void calculScores(ArrayList<Depeche> depeches, Categorie categorie, HashMap<String, Integer> dictionnaire) {
+    public static void calculScores(ArrayList<Depeche> depeches, Categorie categorie, TreeMap<String, Integer> dictionnaire) {
         for (Depeche depeche : depeches) {
             for (String mot : depeche.getMots()) {
                 String key = UtilitairePaireChaineEntier.keyFromWord(dictionnaire, mot);
@@ -106,6 +106,18 @@ public class Classification {
                     dictionnaire.put(key, dictionnaire.get(key) + i);
                 }
             }
+        }
+    }
+
+    public static int poidsPourScore(int score) {
+        if (score < 0) {
+            return 0;
+        } else if (score <= 5) {
+            return 1;
+        } else if (score <= 10) {
+            return 2;
+        } else {
+            return 3;
         }
     }
 
