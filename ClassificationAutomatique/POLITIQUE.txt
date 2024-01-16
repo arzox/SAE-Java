@@ -20,3 +20,9 @@ manifestation:2
 manifestations:2
 candidature:2
 débats:2
+voix:2
+scrutin:2
+chef:2
+Etat:3
+présidence:3
+sondage:1

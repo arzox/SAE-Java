@@ -24,3 +24,5 @@ JO:3
 nage:1
 épreuve:2
 Ligue:3
+PSG:3
+France:1
