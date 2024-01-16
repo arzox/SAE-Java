@@ -59,7 +59,7 @@ public class Categorie {
     public int score(Depeche depeche) {
         int score = 0;
         for (String mot : depeche.getMots()) {
-            score += lexique.get(UtilitairePaireChaineEntier.keyFromWord(lexique, mot));
+            score += UtilitairePaireChaineEntier.valueFromWord(lexique, mot);
         }
         return score;
     }

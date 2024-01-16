@@ -97,7 +97,7 @@ public class Classification {
     }
 
 
-    public static void calculScores(ArrayList<Depeche> depeches, Categorie categorie, TreeMap<String, Integer> dictionnaire) {
+    public static void calculScores(ArrayList<Depeche> depeches, Categorie categorie, Map<String, Integer> dictionnaire) {
         for (Depeche depeche : depeches) {
             for (String mot : depeche.getMots()) {
                 String key = UtilitairePaireChaineEntier.keyFromWord(dictionnaire, mot);
@@ -110,7 +110,7 @@ public class Classification {
     }
 
     public static int poidsPourScore(int score) {
-        if (score < 0) {
+        if (score < 3) {
             return 0;
         } else if (score <= 5) {
             return 1;
@@ -121,28 +121,43 @@ public class Classification {
         }
     }
 
+    public static void generationLexique(ArrayList<Depeche> depeches, Categorie categorie, String nomFichier){
+        UtilitaireWrite.clear(nomFichier);
+        Map<String, Integer> dicoCat = initDico(depeches, categorie.getNom());
+        calculScores(depeches, categorie, dicoCat);
+        for (Map.Entry<String, Integer> entry : dicoCat.entrySet()) {
+            int score = entry.getValue();
+            entry.setValue(poidsPourScore(score));
+        }
+
+        for (Map.Entry<String, Integer> entry : dicoCat.entrySet()) {
+            // écrire tout les mots et poids associée pour des poids > 0
+            if(entry.getValue() > 0){
+                UtilitaireWrite.write(nomFichier, entry.getKey() + ":" + entry.getValue() + "\n");
+            }
+        }
+    }
+
+
+
     public static void main(String[] args) {
-
-        sport.initLexique("./SPORTS.txt");
-        economie.initLexique("./ECONOMIE.txt");
-        politique.initLexique("./POLITIQUE.txt");
-        envScience.initLexique("./ENVIRONNEMENT-SCIENCES.txt");
-        culture.initLexique("./CULTURE.txt");
-
         //Chargement des dépêches en mémoire
         System.out.println("chargement des dépêches");
         ArrayList<Depeche> depeches = lectureDepeches("./depeches.txt");
 
 
-        Map<String, Integer> test = initDico(depeches, sport.getNom());
-        System.out.println(test.size());
-        afficherHashMap(test);
-    }
-
-    public static void afficherHashMap(Map<String, Integer> map) {
-        for (Map.Entry<String, Integer> entry : map.entrySet()) {
-            System.out.println("Clé : " + entry.getKey() + " Valeur : " + entry.getValue());
+        for (Categorie cat : categories) {
+            String fileName = "./" + cat.getNom() + "Lexique.txt";
+            System.out.println(fileName);
+            UtilitaireWrite.createFile(fileName);
+            Map<String, Integer> dicoCat = initDico(depeches, cat.getNom());
+            generationLexique(depeches, cat, fileName);
+            cat.initLexique(fileName);
         }
+
+        classementDepeches(depeches, "./output.txt");
+
+
     }
 
 }
