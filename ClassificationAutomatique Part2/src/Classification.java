@@ -1,8 +1,5 @@
 import java.io.*;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Scanner;
+import java.util.*;
 
 public class Classification {
     static Categorie sport = new Categorie("SPORTS");
@@ -85,39 +82,27 @@ public class Classification {
         UtilitaireWrite.write(nomFichier, "------------------");
     }
 
-    public static HashMap<String, Integer> initDico(ArrayList<Depeche> depeches, String categorie) {
-        HashMap<String, Integer> dico = new HashMap<>();
-
-        String contenu = "";
-
+    public static Map<String, Integer> initDico(ArrayList<Depeche> depeches, String categorie) {
+        TreeMap<String, Integer> dico = new TreeMap<>();
 
         for (Depeche depeche : depeches) {
-
-            contenu = depeche.getContenu();
-            ByteArrayInputStream contenuLissibleMachine = new ByteArrayInputStream(contenu.getBytes());
-            Scanner scanner = new Scanner(contenuLissibleMachine);
-
-            while (scanner.hasNext()) {
-                String mot = scanner.next();
-                System.out.println(mot);
+            ArrayList<String> contenu = depeche.getMots();
+            for (String mot : contenu) {
                 if (!dico.containsKey(mot)) {
                     dico.put(mot, 0);
-                    System.out.println(dico.get(mot));
                 }
             }
-
-            // Fermer le scanner
-            scanner.close();
         }
         return dico;
     }
+
 
     public static void calculScores(ArrayList<Depeche> depeches, Categorie categorie, HashMap<String, Integer> dictionnaire) {
         for (Depeche depeche : depeches) {
             for (String mot : depeche.getMots()) {
                 String key = UtilitairePaireChaineEntier.keyFromWord(dictionnaire, mot);
                 if (!key.isEmpty()) {
-                    int i = depeche.getCategorie().getNom().equals(categorie.getNom()) ? i++ : i--;;
+                    int i = depeche.getCategorie().getNom().equals(categorie.getNom()) ? 1 : -1;
                     dictionnaire.put(key, dictionnaire.get(key) + i);
                 }
             }
@@ -136,7 +121,17 @@ public class Classification {
         System.out.println("chargement des dépêches");
         ArrayList<Depeche> depeches = lectureDepeches("./depeches.txt");
 
-        classementDepeches(depeches, "./output.txt");
+
+        Map<String, Integer> test = initDico(depeches, sport.getNom());
+        System.out.println(test.size());
+        afficherHashMap(test);
     }
+
+    public static void afficherHashMap(Map<String, Integer> map) {
+        for (Map.Entry<String, Integer> entry : map.entrySet()) {
+            System.out.println("Clé : " + entry.getKey() + " Valeur : " + entry.getValue());
+        }
+    }
+
 }
 
