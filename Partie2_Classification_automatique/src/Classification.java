@@ -7,6 +7,7 @@ import java.nio.file.Paths;
 import java.nio.file.StandardOpenOption;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.Scanner;
 
 public class Classification {
@@ -71,10 +72,31 @@ public class Classification {
     }
 
 
-    public static ArrayList<PaireChaineEntier> initDico(ArrayList<Depeche> depeches, String categorie) {
+    public static HashMap<String, Integer> initDico(ArrayList<Depeche> depeches, String categorie) {
         // {Un fichier avec plusieurs depeches et un catégorie renseigné}
         // --> Resultat: ArrayList<PaireChaineEntier> qui contient tout les mots d'une categorie précise
-        ArrayList<PaireChaineEntier> dicoDeCategorie = new ArrayList<>();
+        HashMap<String, Integer> dicoDeCategorie = new HashMap<>();
+
+        String contenu = "";
+
+        for (Depeche depeche : depeches) {
+            contenu = depeche.getContenu();
+            ByteArrayInputStream contenuLisibleMachine = new ByteArrayInputStream(contenu.getBytes());
+
+            // Utiliser Scanner pour lire à partir de l'ByteArrayInputStream
+            Scanner scanner = new Scanner(contenuLisibleMachine);
+
+            // Lire le contenu de la chaîne avec Scanner
+            while (scanner.hasNext()) {
+                String mot = scanner.next();
+                if(dicoDeCategorie.containsKey(mot)){
+                    dicoDeCategorie.put(mot, 0);
+                }
+            }
+            // Fermer le scanner
+            scanner.close();
+        }
+
 
         return dicoDeCategorie;
     }
@@ -94,6 +116,8 @@ public class Classification {
 
 
         classementDepeches(depeches, "./output.txt");
+        HashMap<String, Integer> test = initDico(depeches, sport.getNom());
+        System.out.println(test);
     }
 }
 
