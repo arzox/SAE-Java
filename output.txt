@@ -1,0 +1,8 @@
+
+------------------
+SPORTS: NaN%
+CULTURE: NaN%
+ECONOMIE: NaN%
+POLITIQUE: NaN%
+ENVIRONNEMENT-SCIENCES: NaN%
+------------------

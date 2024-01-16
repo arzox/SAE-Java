@@ -1,6 +1,7 @@
 import java.io.*;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.Scanner;
 
 public class Classification {
@@ -84,10 +85,31 @@ public class Classification {
         UtilitaireWrite.write(nomFichier, "------------------");
     }
 
-    public static ArrayList<PaireChaineEntier> initDico(ArrayList<Depeche> depeches, String categorie) {
-        ArrayList<PaireChaineEntier> resultat = new ArrayList<>();
-        return resultat;
+    public static HashMap<String, Integer> initDico(ArrayList<Depeche> depeches, String categorie) {
+        HashMap<String, Integer> dico = new HashMap<>();
 
+        String contenu = "";
+
+
+        for (Depeche depeche : depeches) {
+
+            contenu = depeche.getContenu();
+            ByteArrayInputStream contenuLissibleMachine = new ByteArrayInputStream(contenu.getBytes());
+            Scanner scanner = new Scanner(contenuLissibleMachine);
+
+            while (scanner.hasNext()) {
+                String mot = scanner.next();
+                System.out.println(mot);
+                if (!dico.containsKey(mot)) {
+                    dico.put(mot, 0);
+                    System.out.println(dico.get(mot));
+                }
+            }
+
+            // Fermer le scanner
+            scanner.close();
+        }
+        return dico;
     }
 
     public static void main(String[] args) {
