@@ -121,21 +121,21 @@ public class Classification {
         for (Depeche depeche : depeches) {
             ArrayList<String> contenu = depeche.getMots();
             for (String mot : contenu) {
+                int indice = UtilitairePaireChaineEntier.indicePourChaine(dico, mot);
                 if (depeche.getCategorie().getNom().equals(categorie)) {
-                    if (!containsWord(dico, mot)) {
+                    if(indice == -1) {
                         insereTrie(new PaireChaineEntier(mot, 0), dico);
                     }
                     else{
-                        int indice = UtilitairePaireChaineEntier.indicePourChaine(dico, mot);
                         int value = dico.get(indice).getEntier() + 1;
-
                         dico.get(indice).setEntier(value);
                     }
                 }
                 else{
-                    int indice = UtilitairePaireChaineEntier.indicePourChaine(dico, mot);
-                    int value = dico.get(indice).getEntier() - 1;
-                    dico.get(indice).setEntier(value);
+                    if(indice != -1){
+                        int value = dico.get(indice).getEntier() - 1;
+                        dico.get(indice).setEntier(value);
+                    }
                 }
             }
         }
@@ -161,21 +161,6 @@ public class Classification {
         dico.add(fin, paireChaineEntier);
     }
 
-    /**
-     * Vérifie si la liste d'objets PaireChaineEntier contient un mot donné.
-     *
-     * @param dico La liste d'objets PaireChaineEntier à vérifier.
-     * @param mot Le mot à rechercher dans la liste.
-     * @return true si la liste contient le mot, sinon false.
-     */
-    private static boolean containsWord(ArrayList<PaireChaineEntier> dico, String mot) {
-        for (PaireChaineEntier paire : dico) {
-            if (paire.getChaine().equals(mot)) {
-                return true;
-            }
-        }
-        return false;
-    }
 
     /**
      * Calcule les scores pour une catégorie spécifiée à partir d'une liste de dépeches
@@ -223,43 +208,35 @@ public class Classification {
      *
      * @param depeches La liste des dépeches à utiliser pour la génération du lexique.
      * @param categorie La catégorie pour laquelle générer le lexique.
-     * @param nomFichier Le nom du fichier dans lequel enregistrer le lexique généré.
      */
-    public static void generationLexique(ArrayList<Depeche> depeches, Categorie categorie, String nomFichier){
-        UtilitaireWrite.clear(nomFichier);
+    public static void generationLexique(ArrayList<Depeche> depeches, Categorie categorie){
         ArrayList<PaireChaineEntier> dicoCat = initDico(depeches, categorie.getNom());
-        calculScores(depeches, categorie, dicoCat);
 
-        for (PaireChaineEntier paire : dicoCat) {
-            int score = paire.getEntier();
+        for (int i = 0; i < dicoCat.size(); i++) {
+            int score = dicoCat.get(i).getEntier();
             int poidsScore = poidsPourScore(score);
-            if (poidsScore > 0) {
-                UtilitaireWrite.write(nomFichier, paire.getChaine() + ":" + poidsScore + "\n");
+            if (poidsScore < 0) {
+                dicoCat.remove(i);
             }
         }
+        categorie.setLexique(dicoCat);
     }
 
     public static void main(String[] args) {
-
-        sport.initLexique("./SPORTS.txt");
-        economie.initLexique("./ECONOMIE.txt");
-        politique.initLexique("./POLITIQUE.txt");
-        envScience.initLexique("./ENVIRONNEMENT-SCIENCES.txt");
-        culture.initLexique("./CULTURE.txt");
+        long startTime = System.currentTimeMillis();
 
         //Chargement des dépêches en mémoire
-        System.out.println("chargement des dépêches");
         ArrayList<Depeche> depeches = lectureDepeches("./depeches.txt");
 
         for (Categorie cat : categories) {
-            String fileName = "./" + cat.getNom() + "Lexique.txt";
-            System.out.println(fileName);
-            UtilitaireWrite.createFile(fileName);
-            generationLexique(depeches, cat, fileName);
-            cat.initLexique(fileName);
+            generationLexique(depeches, cat);
+            System.out.println(cat.getLexique());
         }
 
         classementDepeches(depeches, "./output.txt");
+        long endTime = System.currentTimeMillis();
+        System.out.println("Temps d'exécution : " + (endTime - startTime) + "ms");
+
     }
 }
 
