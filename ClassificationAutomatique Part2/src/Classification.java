@@ -2,11 +2,14 @@ import java.io.*;
 import java.util.*;
 
 public class Classification {
+    // Initialisation de toutes les categories
     static Categorie sport = new Categorie("SPORTS");
     static Categorie culture = new Categorie("CULTURE");
     static Categorie economie = new Categorie("ECONOMIE");
     static Categorie politique = new Categorie("POLITIQUE");
     static Categorie envScience = new Categorie("ENVIRONNEMENT-SCIENCES");
+
+    // Initialisation d'un Vecteur contenant toutes les categories
     static ArrayList<Categorie> categories = new ArrayList<>(Arrays.asList(sport, culture, economie, politique, envScience));
     private static ArrayList<Depeche> lectureDepeches(String nomFichier) {
         //creation d'un tableau de dépêches
@@ -41,6 +44,12 @@ public class Classification {
         return depeches;
     }
 
+    /**
+     * Renvoie une instance de la classe Categorie correspondant au nom spécifié.
+     *
+     * @param name Le nom de la catégorie à rechercher.
+     * @return Une instance de la classe Categorie correspondant au nom, ou null si aucune catégorie n'est trouvée.
+     */
     public static Categorie getCategorieFromName(String name) {
         for (Categorie categorie : categories) {
             if (categorie.getNom().equalsIgnoreCase(name)) {
@@ -50,6 +59,12 @@ public class Classification {
         return null;
     }
 
+    /**
+     * Identifie la meilleure catégorie pour une dépeche en évaluant les scores de chaque catégorie.
+     *
+     * @param depeche La dépeche pour où on recherche la meilleure catégorie.
+     * @return La meilleure catégorie identifiée pour la dépeche, basée sur les scores calculés.
+     */
     private static Categorie bestCategorie(Depeche depeche) {
         int max = 0;
         Categorie bestCategorie = categories.get(0);
@@ -63,6 +78,14 @@ public class Classification {
         return bestCategorie;
     }
 
+
+    /**
+     * Classe  les depeches en fonction des catégories et écrit le résultat dans le fichier spécifié
+     * Donne le pourcentage des résultats pour chaque catégories
+     *
+     * @param depeches La liste des dépeches à classer.
+     * @param nomFichier Le nom du fichier dans lequel enregistrer les résultats.
+     */
     public static void classementDepeches(ArrayList<Depeche> depeches, String nomFichier) {
         UtilitaireWrite.clear(nomFichier);
 
@@ -82,21 +105,37 @@ public class Classification {
         UtilitaireWrite.write(nomFichier, "------------------");
     }
 
+
+    /**
+     * Initialise un dictionnaire contenant tout les mots pour une catégorie donné
+     *
+     * @param depeches listes de toutes les depeches
+     * @param categorie le nom de la categorie pour laquelle on veut un dictionnaire
+     * @return une map contenant tout les mots pour une categorie donne
+     */
     public static Map<String, Integer> initDico(ArrayList<Depeche> depeches, String categorie) {
         TreeMap<String, Integer> dico = new TreeMap<>();
 
         for (Depeche depeche : depeches) {
-            ArrayList<String> contenu = depeche.getMots();
-            for (String mot : contenu) {
-                if (!dico.containsKey(mot)) {
-                    dico.put(mot, 0);
+            if(depeche.getCategorie().getNom().equals(categorie)){
+                ArrayList<String> contenu = depeche.getMots();
+                for (String mot : contenu) {
+                    if (!dico.containsKey(mot)) {
+                        dico.put(mot, 0);
+                    }
                 }
             }
         }
         return dico;
     }
 
-
+    /**
+     * Calcule les scores pour une catégorie spécifiée à partir d'une liste de dépeches et d'un dictionnaire.
+     *
+     * @param depeches La liste des dépeches à utiliser pour le calcul des scores.
+     * @param categorie La catégorie pour laquelle calculer les scores.
+     * @param dictionnaire Le dictionnaire contenant les mots et les scores associés.
+     */
     public static void calculScores(ArrayList<Depeche> depeches, Categorie categorie, Map<String, Integer> dictionnaire) {
         for (Depeche depeche : depeches) {
             for (String mot : depeche.getMots()) {
@@ -109,6 +148,12 @@ public class Classification {
         }
     }
 
+    /**
+     * Calcule le poids associé à un score donné en fonction de plages de scores spécifiées.
+     *
+     * @param score Le score pour lequel calculer le poids.
+     * @return Le poids associé au score, selon des plages prédéfinies.
+     */
     public static int poidsPourScore(int score) {
         if (score < 3) {
             return 0;
@@ -121,6 +166,14 @@ public class Classification {
         }
     }
 
+    /**
+     * Génère un lexique pour une catégorie spécifiée à partir d'une liste de dépeches,
+     * en calculant les scores, appliquant des poids et enregistrant les mots et poids dans un fichier.
+     *
+     * @param depeches La liste des dépeches à utiliser pour la génération du lexique.
+     * @param categorie La catégorie pour laquelle générer le lexique.
+     * @param nomFichier Le nom du fichier dans lequel enregistrer le lexique généré.
+     */
     public static void generationLexique(ArrayList<Depeche> depeches, Categorie categorie, String nomFichier){
         UtilitaireWrite.clear(nomFichier);
         Map<String, Integer> dicoCat = initDico(depeches, categorie.getNom());
