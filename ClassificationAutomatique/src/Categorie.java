@@ -5,10 +5,16 @@ import java.util.Scanner;
 
 public class Categorie {
 
-    private String nom; // le nom de la catégorie p.ex : sport, politique,...
-    private ArrayList<PaireChaineEntier> lexique; //le lexique de la catégorie
+    // le nom de la catégorie p.ex : sport, politique,...
+    private String nom;
 
+    //le lexique de la catégorie
+    private ArrayList<PaireChaineEntier> lexique;
+
+    // score des catégories
     public int score = 0;
+
+    // nombre de depeches
     public int nbDepeches = 0;
 
     // constructeur
@@ -16,7 +22,7 @@ public class Categorie {
         this.nom = nom;
     }
 
-
+    // getter
     public String getNom() {
         return nom;
     }
@@ -26,7 +32,11 @@ public class Categorie {
         return lexique;
     }
 
-
+    /**
+     * Initialise le lexique en lisant les données à partir d'un fichier spécifié.
+     *
+     * @param nomFichier Le chemin du fichier où lire les données pour initialiser le lexique.
+     */
     // initialisation du lexique de la catégorie à partir du contenu d'un fichier texte
     public void initLexique(String nomFichier) {
 
@@ -40,6 +50,7 @@ public class Categorie {
 
             while (scanner.hasNextLine() && !ligne.equals("")) {
 
+                // récupérer le mot et son poids attribué
                 String[] mot = ligne.split(":");
 
                 PaireChaineEntier paireChaineEntier = new PaireChaineEntier(mot[0], Integer.parseInt(mot[1]));
@@ -59,7 +70,12 @@ public class Categorie {
         }
     }
 
-
+    /**
+     * Calcule le score d'une dépeche à partir de la somme des scores des mots dans le lexique.
+     *
+     * @param depeche La dépeche pour laquelle calculer le score.
+     * @return Le score total de la dépeche basé sur les scores des mots dans le lexique.
+     */
     //calcul du score d'une dépêche pour la catégorie
     public int score(Depeche depeche) {
         int score = 0;
@@ -69,6 +85,12 @@ public class Categorie {
         return score;
     }
 
+
+    /**
+     * Insère une PaireChaineEntier (chaine, entier) à la bonne position dans le lexique pour conserver le trie.
+     *
+     * @param paireChaineEntier l'objet PaireChaineEntier (chaine, entier) à insérer dans le lexique de manière triée.
+     */
     private void insereTrie(PaireChaineEntier paireChaineEntier){
         int debut = 0;
         int fin = lexique.size() - 1;
