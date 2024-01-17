@@ -32,6 +32,10 @@ public class Categorie {
         return lexique;
     }
 
+    public void setLexique(ArrayList<PaireChaineEntier> lexique) {
+        this.lexique = lexique;
+    }
+
     /**
      * Initialise le lexique en lisant les données à partir d'un fichier spécifié.
      *
@@ -69,6 +73,8 @@ public class Categorie {
             e.printStackTrace();
         }
     }
+
+
 
     /**
      * Calcule le score d'une dépeche à partir de la somme des scores des mots dans le lexique.

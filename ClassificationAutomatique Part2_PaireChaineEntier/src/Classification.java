@@ -1,7 +1,5 @@
 import java.io.*;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Scanner;
+import java.util.*;
 
 public class Classification {
 
@@ -110,19 +108,135 @@ public class Classification {
         UtilitaireWrite.write(nomFichier, "------------------");
     }
 
-    public static void main(String[] args) {
+    /**
+     * Initialise un dictionnaire contenant tout les mots pour une catégorie donné
+     *
+     * @param depeches listes de toutes les depeches
+     * @param categorie le nom de la categorie pour laquelle on veut un dictionnaire
+     * @return une liste de PaireChaineEntier contenant tout les mots pour une categorie donne
+     */
+    public static ArrayList<PaireChaineEntier> initDico(ArrayList<Depeche> depeches, String categorie) {
+        ArrayList<PaireChaineEntier> dico = new ArrayList<>();
 
-        sport.initLexique("./SPORTS.txt");
-        economie.initLexique("./ECONOMIE.txt");
-        politique.initLexique("./POLITIQUE.txt");
-        envScience.initLexique("./ENVIRONNEMENT-SCIENCES.txt");
-        culture.initLexique("./CULTURE.txt");
+        for (Depeche depeche : depeches) {
+            ArrayList<String> contenu = depeche.getMots();
+            for (String mot : contenu) {
+                int indice = UtilitairePaireChaineEntier.indicePourChaine(dico, mot);
+                if (depeche.getCategorie().getNom().equals(categorie)) {
+                    if(indice == -1) {
+                        insereTrie(new PaireChaineEntier(mot, 0), dico);
+                    }
+                    else{
+                        int value = dico.get(indice).getEntier() + 1;
+                        dico.get(indice).setEntier(value);
+                    }
+                }
+                else{
+                    if(indice != -1){
+                        int value = dico.get(indice).getEntier() - 1;
+                        dico.get(indice).setEntier(value);
+                    }
+                }
+            }
+        }
+        return dico;
+    }
+
+    private static void insereTrie(PaireChaineEntier paireChaineEntier, ArrayList<PaireChaineEntier> dico){
+        if(dico.isEmpty()){
+            dico.add(paireChaineEntier);
+            return;
+        }
+        int debut = 0;
+        int fin = dico.size() - 1;
+        int milieu = (debut + fin) / 2;
+        while (debut < fin) {
+            if (dico.get(milieu).getChaine().toLowerCase().compareTo(paireChaineEntier.getChaine().toLowerCase()) < 0) {
+                debut = milieu + 1;
+            } else {
+                fin = milieu;
+            }
+            milieu = (debut + fin) / 2;
+        }
+        dico.add(fin, paireChaineEntier);
+    }
+
+
+    /**
+     * Calcule les scores pour une catégorie spécifiée à partir d'une liste de dépeches
+     * et d'une liste d'objets PaireChaineEntier représentant le dictionnaire.
+     *
+     * @param depeches La liste des dépeches à utiliser pour le calcul des scores.
+     * @param categorie La catégorie pour laquelle calculer les scores.
+     * @param dictionnaire La liste d'objets PaireChaineEntier représentant le dictionnaire.
+     */
+    public static void calculScores(ArrayList<Depeche> depeches, Categorie categorie, ArrayList<PaireChaineEntier> dictionnaire) {
+        for (Depeche depeche : depeches) {
+            for (String mot : depeche.getMots()) {
+                int indice = UtilitairePaireChaineEntier.indicePourChaine(dictionnaire, mot);
+                if (indice != -1) {
+                    int i = depeche.getCategorie().getNom().equals(categorie.getNom()) ? 1 : -1;
+                    int nouveauScore = dictionnaire.get(indice).getEntier() + i;
+                    dictionnaire.get(indice).setEntier(nouveauScore);
+                    System.out.println(dictionnaire.get(indice).getEntier());
+                }
+            }
+        }
+    }
+
+    /**
+     * Calcule le poids associé à un score donné en fonction de plages de scores spécifiées.
+     *
+     * @param score Le score pour lequel calculer le poids.
+     * @return Le poids associé au score, selon des plages prédéfinies.
+     */
+    public static int poidsPourScore(int score) {
+        if (score < 0) {
+            return 0;
+        } else if (score <= 5) {
+            return 1;
+        } else if (score <= 10) {
+            return 2;
+        } else {
+            return 3;
+        }
+    }
+
+    /**
+     * Génère un lexique pour une catégorie spécifiée à partir d'une liste de dépeches,
+     * en calculant les scores, appliquant des poids et enregistrant les mots et poids dans un fichier.
+     *
+     * @param depeches La liste des dépeches à utiliser pour la génération du lexique.
+     * @param categorie La catégorie pour laquelle générer le lexique.
+     */
+    public static void generationLexique(ArrayList<Depeche> depeches, Categorie categorie){
+        ArrayList<PaireChaineEntier> dicoCat = initDico(depeches, categorie.getNom());
+
+        for (int i = 0; i < dicoCat.size(); i++) {
+            int score = dicoCat.get(i).getEntier();
+            int poidsScore = poidsPourScore(score);
+            if (poidsScore < 0) {
+                dicoCat.remove(i);
+            }
+        }
+        categorie.setLexique(dicoCat);
+    }
+
+    public static void main(String[] args) {
+        long startTime = System.currentTimeMillis();
 
         //Chargement des dépêches en mémoire
-        System.out.println("chargement des dépêches");
         ArrayList<Depeche> depeches = lectureDepeches("./depeches.txt");
 
+        for (Categorie cat : categories) {
+            generationLexique(depeches, cat);
+            System.out.println(cat.getLexique());
+        }
+
         classementDepeches(depeches, "./output.txt");
+        long endTime = System.currentTimeMillis();
+        System.out.println("Temps d'exécution : " + (endTime - startTime) + "ms");
+
     }
 }
 

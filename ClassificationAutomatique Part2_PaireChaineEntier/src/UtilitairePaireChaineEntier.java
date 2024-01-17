@@ -30,6 +30,7 @@ public class UtilitairePaireChaineEntier {
     }
 
 
+
     /**
      * Récupère l'entier associé à une chaîne dans une liste triée de PaireChaineEntier.
      *
