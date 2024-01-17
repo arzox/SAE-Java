@@ -24,6 +24,11 @@ public class PaireChaineEntier {
         return entier;
     }
 
+    // setter
+    public void setEntier(int nouveauScore) {
+        entier = nouveauScore;
+    }
+
     /**
      * Renvoie l'objet PaireChaineEntier sous forme de chaîne (chaine, poids:)
      *
@@ -33,4 +38,5 @@ public class PaireChaineEntier {
     public String toString() {
         return getChaine() + " poids: " + getEntier();
     }
+
 }

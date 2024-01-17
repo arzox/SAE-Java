@@ -14,20 +14,22 @@ public class UtilitairePaireChaineEntier {
     public static int indicePourChaine(ArrayList<PaireChaineEntier> listePaires, String chaine) {
         int debut = 0;
         int fin = listePaires.size() - 1;
-        int milieu = (debut + fin) / 2;
-        while (debut < fin) {
+
+        while (debut <= fin) {
+            int milieu = (debut + fin) / 2;
             boolean isTheWorldAlmostTheSame = chaine.startsWith(listePaires.get(milieu).getChaine());
+
             if (isTheWorldAlmostTheSame) {
                 return milieu;
             } else if (listePaires.get(milieu).getChaine().toLowerCase().compareTo(chaine.toLowerCase()) < 0) {
                 debut = milieu + 1;
             } else {
-                fin = milieu;
+                fin = milieu - 1;
             }
-            milieu = (debut + fin) / 2;
         }
         return -1;
     }
+
 
 
     /**
