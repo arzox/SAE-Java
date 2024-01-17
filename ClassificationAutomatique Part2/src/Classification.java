@@ -123,21 +123,15 @@ public class Classification {
     public static Map<String, Integer> initDico(ArrayList<Depeche> depeches, String categorie) {
         TreeMap<String, Integer> dico = new TreeMap<>();
 
-        for (Depeche depeche: depeches){
+        for (Depeche depeche : depeches) {
+            if(depeche.getCategorie().getNom().equals(categorie)){
             ArrayList<String> contenu = depeche.getMots();
             for (String mot : contenu) {
-                if(depeche.getCategorie().getNom().equals(categorie)){
-                    if (!dico.containsKey(mot)) {
-                        dico.put(mot, 0);
-                    } else {
-                        dico.put(mot, dico.get(mot) + 1);
-                    }
-                } else {
-                    if (dico.containsKey(mot)) {
-                        dico.put(mot, dico.get(mot) - 1);
-                    }
+                if (!dico.containsKey(mot)) {
+                    dico.put(mot, 0);
                 }
             }
+        }
         }
         return dico;
     }
@@ -186,17 +180,19 @@ public class Classification {
      * @param depeches La liste des dépeches à utiliser pour la génération du lexique.
      * @param categorie La catégorie pour laquelle générer le lexique.
      */
-    public static void generationLexique(ArrayList<Depeche> depeches, Categorie categorie){
+    public static void generationLexique(ArrayList<Depeche> depeches, Categorie categorie, String nomFichier){
+        UtilitaireWrite.clear(nomFichier);
         Map<String, Integer> dicoCat = initDico(depeches, categorie.getNom());
-        //calculScores(depeches, categorie, dicoCat);
+        calculScores(depeches, categorie, dicoCat);
         for (Map.Entry<String, Integer> entry : dicoCat.entrySet()) {
-            // écrire tout les mots et poids associée pour des poids > 0
             int score = entry.getValue();
             entry.setValue(poidsPourScore(score));
-            if(entry.getValue() < 0){
-                dicoCat.remove(entry.getKey());
+        }
+        for (Map.Entry<String, Integer> entry : dicoCat.entrySet()) {
+            // écrire tout les mots et poids associée pour des poids > 0
+            if(entry.getValue() > 0){
+                UtilitaireWrite.write(nomFichier, entry.getKey() + ":" + entry.getValue() + "\n");
             }
-            categorie.setLexique(dicoCat);
         }
     }
 
@@ -209,8 +205,11 @@ public class Classification {
         ArrayList<Depeche> depeches = lectureDepeches("./depeches.txt");
         System.out.println(System.currentTimeMillis() - startTime + "ms");
         for (Categorie cat : categories) {
-            //Map<String, Integer> dicoCat = initDico(depeches, cat.getNom());
-            generationLexique(depeches, cat);
+            String fileName = "./" + cat.getNom() + "Lexique.txt";
+            System.out.println(fileName);
+            UtilitaireWrite.createFile(fileName);
+            generationLexique(depeches, cat, fileName);
+            cat.initLexique(fileName);
         }
         System.out.println(System.currentTimeMillis() - startTime + "ms");
         classementDepeches(depeches, "./output.txt");
