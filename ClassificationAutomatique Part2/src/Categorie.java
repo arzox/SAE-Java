@@ -1,16 +1,13 @@
 import java.io.FileInputStream;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Scanner;
-import java.util.TreeMap;
+import java.util.*;
 
 public class Categorie {
     // le nom de la catégorie p.ex : sport, politique,...
     private String nom;
 
     //le lexique de la catégorie
-    private TreeMap<String, Integer> lexique;
+    private Map<String, Integer> lexique;
 
     // score des catégories
     public int score = 0;
@@ -27,41 +24,13 @@ public class Categorie {
     public String getNom() {
         return nom;
     }
-    public TreeMap<String, Integer> getLexique() {
+    public Map<String, Integer> getLexique() {
         return lexique;
     }
 
-
-    /**
-     * Initialise le lexique en lisant les données à partir d'un fichier spécifié.
-     *
-     * @param nomFichier Le chemin du fichier où lire les données pour initialiser le lexique.
-     */
-    // initialisation du lexique de la catégorie à partir du contenu d'un fichier texte
-    public void initLexique(String nomFichier) {
-
-        lexique = new TreeMap<>();
-
-        try {
-            // lecture du fichier d'entrée
-            FileInputStream file = new FileInputStream(nomFichier);
-            Scanner scanner = new Scanner(file);
-            String ligne = scanner.nextLine();
-
-            while (scanner.hasNextLine() && !ligne.equals("")) {
-
-                String[] mot = ligne.split(":");
-
-                lexique.put(mot[0], Integer.parseInt(mot[1]));
-
-                ligne = scanner.nextLine();
-            }
-            scanner.close();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+    public void setLexique(Map<String, Integer> lexique) {
+        this.lexique = lexique;
     }
-
 
     /**
      * Calcule le score d'une dépeche à partir de la somme des scores des mots dans le lexique.
