@@ -15,8 +15,8 @@ public class UtilitairePaireChaineEntier {
         int fin = listePaires.size() - 1;
         int milieu = (debut + fin) / 2;
         while (debut < fin) {
-            boolean isTheWorldAlmostTheSame = chaine.startsWith(listePaires.get(milieu).getChaine());
-            if (isTheWorldAlmostTheSame) {
+            boolean isTheWordTheSame = chaine.equals(listePaires.get(milieu).getChaine());
+            if (isTheWordTheSame) {
                 return milieu;
             } else if (listePaires.get(milieu).getChaine().compareTo(chaine) < 0) {
                 debut = milieu + 1;
