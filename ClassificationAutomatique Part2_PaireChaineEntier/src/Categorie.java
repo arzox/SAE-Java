@@ -17,6 +17,9 @@ public class Categorie {
     // nombre de depeches
     public int nbDepeches = 0;
 
+    public int debutCat = -1;
+    public int finCat = -1;
+
     // constructeur
     public Categorie(String nom) {
         this.nom = nom;
@@ -56,6 +59,9 @@ public class Categorie {
 
                 // récupérer le mot et son poids attribué
                 String[] mot = ligne.split(":");
+                if (mot[1].isEmpty()) {
+                    System.out.println(mot[0] + " n'a pas de poids attribué");
+                }
 
                 PaireChaineEntier paireChaineEntier = new PaireChaineEntier(mot[0], Integer.parseInt(mot[1]));
 

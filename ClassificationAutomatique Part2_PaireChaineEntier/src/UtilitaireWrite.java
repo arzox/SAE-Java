@@ -14,7 +14,9 @@ public class UtilitaireWrite {
      */
     public static void write(String nomFichier, String contenu) {
         try {
-            Files.writeString(Paths.get(nomFichier), contenu, StandardOpenOption.APPEND);
+            PrintWriter writer = new PrintWriter(nomFichier);
+            writer.println(contenu);
+            writer.close();
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
