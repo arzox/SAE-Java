@@ -247,10 +247,12 @@ public class Classification {
      * @param categorie La catégorie pour laquelle générer le lexique.
      */
     public static void generationLexique(ArrayList<Depeche> depeches, Categorie categorie, String nomFichier){
+        long startTime = System.currentTimeMillis();
         UtilitaireWrite.clear(nomFichier);
         ArrayList<PaireChaineEntier> dicoCat = initDico(depeches, categorie);
         removePoints(depeches, dicoCat, categorie);
         writeLexique(dicoCat, nomFichier);
+        System.out.println("Temps d'exécution du lexique " + categorie.getNom() + ": " + (System.currentTimeMillis() - startTime) + "ms");
     }
 
     public static void main(String[] args) {
@@ -265,8 +267,23 @@ public class Classification {
             cat.initLexique(fileName);
         }
 
+        System.out.println("\nTemps  d'éxécution de génération des lexiques: " + (System.currentTimeMillis() - startTime) + "ms");
+
+        long startTimeClassement = System.currentTimeMillis();
         classementDepeches(depeches, "./output.txt");
-        System.out.println("Temps d'exécution: " + (System.currentTimeMillis() - startTime) + "ms");
+
+        System.out.println("\n   Classement \n------------------");
+        float moyenne = 0;
+        for (Categorie categorie : categories) {
+            float percent = (float) categorie.score / categorie.nbDepeches * 100;
+            System.out.println(categorie.getNom() + ": " + percent + "%");
+            moyenne += percent;
+        }
+        System.out.println("\nMoyenne classement: " + moyenne/categories.size() + "%");
+        System.out.println("------------------\n");
+
+        System.out.println("Temps  d'éxécution du classement: " + (System.currentTimeMillis() - startTimeClassement) + "ms");
+        System.out.println("Temps d'exécution du programme: " + (System.currentTimeMillis() - startTime) + "ms");
     }
 }
 
