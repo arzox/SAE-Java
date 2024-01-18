@@ -21,7 +21,7 @@ public class Classification {
             Scanner scanner = new Scanner(file);
 
             while (scanner.hasNextLine()) {
-                String ligne = scanner.nextLine();
+                String ligne = scanner.nextLlong startTime = System.currentTimeMillis();ine();
                 String id = ligne.substring(3);
                 ligne = scanner.nextLine();
                 String date = ligne.substring(3);
@@ -98,7 +98,7 @@ public class Classification {
             if (bestScoringCategorie.getNom().equals(depeche.getCategorie().getNom())) {
                 bestScoringCategorie.score++;
             }
-            depeche.getCategorie().nbDepeches++;
+            depeche.getCategorie().nbDepeches++;long startTime = System.currentTimeMillis();
         }
 
         UtilitaireWrite.write(nomFichier, "\n------------------\n");
@@ -115,21 +115,43 @@ public class Classification {
      * @param categorie le nom de la categorie pour laquelle on veut un dictionnaire
      * @return une liste de PaireChaineEntier contenant tout les mots pour une categorie donne
      */
-    public static ArrayList<PaireChaineEntier> initDico(ArrayList<Depeche> depeches, String categorie) {
+    public static ArrayList<PaireChaineEntier> initDico(ArrayList<Depeche> depeches, Categorie categorie) {
         ArrayList<PaireChaineEntier> dico = new ArrayList<>();
+        int debutCat = -1;
+        int finCat = -1;
 
-        for (Depeche depeche : depeches) {
-            ArrayList<String> contenu = depeche.getMots();
-            for (String mot : contenu) {
-                int indice = UtilitairePaireChaineEntier.indicePourChaine(dico, mot);
-                if (depeche.getCategorie().getNom().equals(categorie)) {
+        for (int i = 0; i < depeches.size(); i++) {
+            Depeche depeche = depeches.get(i);
+            if (depeche.getCategorie().getNom().equals(categorie.getNom())) {
+                if (debutCat == -1) {debutCat = i;}
+                ArrayList<String> contenu = depeche.getMots();
+                for (String mot : contenu) {
+                    int indice = UtilitairePaireChaineEntier.indicePourChaine(dico, mot);
                     if(indice == -1) {
                         insereTrie(new PaireChaineEntier(mot, 0), dico);
                     }
                 }
+                removePoints(depeches, dico, debutCat, finCat);
+                return dico;
             }
         }
+        removePoints(depeches, dico, debutCat, finCat);
         return dico;
+    }
+
+    public static void removePoints(ArrayList<Depeche> depeches, ArrayList<PaireChaineEntier> dico, int debutCat, int finCat) {
+        Depeche depeche;
+        for (int i = 0; i < depeches.size(); i++) {
+            depeche = depeches.get(i);
+            if (i == debutCat) {i = finCat;}
+            for (String mot : depeche.getMots()) {
+                int indice = UtilitairePaireChaineEntier.indicePourChaine(dico, mot);
+                if (indice != -1) {
+                    int value = dico.get(indice).getEntier() - 1;
+                    dico.get(indice).setEntier(value);
+                }
+            }
+        }
     }
 
     private static void insereTrie(PaireChaineEntier paireChaineEntier, ArrayList<PaireChaineEntier> dico){
@@ -141,7 +163,7 @@ public class Classification {
         int fin = dico.size() - 1;
         int milieu = (debut + fin) / 2;
         while (debut < fin) {
-            if (dico.get(milieu).getChaine().toLowerCase().compareTo(paireChaineEntier.getChaine().toLowerCase()) < 0) {
+            if (dico.get(milieu).getChaine().compareTo(paireChaineEntier.getChaine()) < 0) {
                 debut = milieu + 1;
             } else {
                 fin = milieu;
@@ -213,11 +235,11 @@ public class Classification {
     }
 
     public static void main(String[] args) {
-        long startTime = System.currentTimeMillis();
+
 
         //Chargement des dépêches en mémoire
         ArrayList<Depeche> depeches = lectureDepeches("./depeches.txt");
-
+        long startTime = System.currentTimeMillis();
         for (Categorie cat : categories) {
             String fileName = "./" + cat.getNom() + "Lexique.txt";
             System.out.println(fileName);

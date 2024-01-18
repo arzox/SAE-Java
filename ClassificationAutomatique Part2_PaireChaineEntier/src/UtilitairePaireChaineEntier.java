@@ -1,15 +1,14 @@
 import java.util.ArrayList;
 
 public class UtilitairePaireChaineEntier {
-
     /**
-     * Recherche l'indice d'une chaîne dans une liste triée de paires (chaine, entier)
-     * en utilisant une recherche binaire adaptée aux préfixes.
-     *
-     * @param listePaires La liste triée de paires (chaine, entier) à rechercher.
-     * @param chaine La chaîne à trouver dans la liste.
-     * @return L'indice de la première paire dont la chaîne est un préfixe de la chaîne spécifiée,
-     *         ou -1 si la chaîne n'est pas trouvée.
+     Recherche l'indice d'une chaîne dans une liste triée de paires (chaine, entier)
+     en utilisant une recherche binaire adaptée aux préfixes.
+
+     @param listePaires La liste triée de paires (chaine, entier) à rechercher.
+     @param chaine La chaîne à trouver dans la liste.
+     @return L'indice de la première paire dont la chaîne est un préfixe de la chaîne spécifiée,
+              ou -1 si la chaîne n'est pas trouvée.
      */
     public static int indicePourChaine(ArrayList<PaireChaineEntier> listePaires, String chaine) {
         int debut = 0;
@@ -19,7 +18,7 @@ public class UtilitairePaireChaineEntier {
             boolean isTheWorldAlmostTheSame = chaine.startsWith(listePaires.get(milieu).getChaine());
             if (isTheWorldAlmostTheSame) {
                 return milieu;
-            } else if (listePaires.get(milieu).getChaine().toLowerCase().compareTo(chaine.toLowerCase()) < 0) {
+            } else if (listePaires.get(milieu).getChaine().compareTo(chaine) < 0) {
                 debut = milieu + 1;
             } else {
                 fin = milieu;
