@@ -32,12 +32,30 @@ public class Categorie {
         this.lexique = lexique;
     }
 
-    /**
-     * Calcule le score d'une dépeche à partir de la somme des scores des mots dans le lexique.
-     *
-     * @param depeche La dépeche pour laquelle calculer le score.
-     * @return Le score total de la dépeche basé sur les scores des mots dans le lexique.
-     */
+    public void initLexique(String nomFichier) {
+
+        lexique = new TreeMap<>();
+        try {
+            // lecture du fichier d'entrée
+            FileInputStream file = new FileInputStream(nomFichier);
+            Scanner scanner = new Scanner(file);
+            String ligne = scanner.nextLine();
+            while (scanner.hasNextLine() && !ligne.equals("")) {
+                String[] mot = ligne.split(":");
+                lexique.put(mot[0], Integer.parseInt(mot[1]));
+                ligne = scanner.nextLine();
+            }
+            scanner.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }}
+
+            /**
+             * Calcule le score d'une dépeche à partir de la somme des scores des mots dans le lexique.
+             *
+             * @param depeche La dépeche pour laquelle calculer le score.
+             * @return Le score total de la dépeche basé sur les scores des mots dans le lexique.
+             */
     //calcul du score d'une dépêche pour la catégorie
     public int score(Depeche depeche) {
         int score = 0;
